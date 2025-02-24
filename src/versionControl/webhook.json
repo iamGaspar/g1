@@ -1,0 +1,28 @@
+{
+  "callId": "4741b85c1f7d4eaca78decb1e428f710",
+  "context": "{\"id\":\"webhook\",\"targetApiKey\":\"4_Ua3TgRbHFFww0KCna2qjqA\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-24T09:08:05.082Z",
+  "webhooks": [
+    {
+      "url": "https://testtemplates.com/",
+      "name": "_cdc-toolbox-source-templates_",
+      "active": true,
+      "events": [
+        "accountCreated",
+        "accountRegistered",
+        "accountUpdated",
+        "accountDeleted",
+        "accountLoggedIn"
+      ],
+      "useXfCredentials": false,
+      "headers": [],
+      "version": "2.0",
+      "product": "UserManagement",
+      "id": "0d99707f-714d-4149-b02b-a6d7b42fc703"
+    }
+  ]
+}

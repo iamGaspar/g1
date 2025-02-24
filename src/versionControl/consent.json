@@ -1,0 +1,93 @@
+{
+  "callId": "e77b252b0bba4bdcbf3f5ff6ac61f9cf",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_Ua3TgRbHFFww0KCna2qjqA\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-24T09:08:05.078Z",
+  "preferences": {
+    "terms.test_Terms": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "bg",
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify"
+    },
+    "privacy.my.consent": {
+      "isActive": false,
+      "langs": [
+        "il",
+        "MyspecialLang"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify"
+    },
+    "terms.my.consent": {
+      "isActive": false,
+      "langs": [
+        "il",
+        "NewOne"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify"
+    },
+    "terms.terms_test": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "ca"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify"
+    },
+    "terms.teste_vazio": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "pt"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify"
+    },
+    "terms.testvazio_2": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "pt",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify"
+    },
+    "terms.testvazio_3": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "pt",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify"
+    },
+    "privacy.test": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify"
+    }
+  }
+}
