@@ -1,0 +1,21 @@
+{
+  "callId": "ee06cc6375bf4a0da3116676d593549d",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_qrielmhEi_ntXZH_cXfrSA\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-26T12:08:24.341Z",
+  "preferences": {
+    "terms.teste": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify"
+    }
+  }
+}

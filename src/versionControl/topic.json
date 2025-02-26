@@ -1,0 +1,21 @@
+{
+  "callId": "f39eca1f23c74c89b46caadbed138b68",
+  "context": "{}",
+  "errorCode": 0,
+  "errorDetails": "",
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-26T12:08:24.413Z",
+  "results": [
+    {
+      "topicChannelId": "teste",
+      "channel": "SMS",
+      "topic": "vcTest",
+      "description": "",
+      "lastModified": "2025-02-25T10:52:47.516Z"
+    }
+  ],
+  "objectsCount": 1,
+  "totalCount": 1
+}
