@@ -1,0 +1,83 @@
+{
+  "callId": "8aaffa27a86847888ed1e298bb03aed8",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_ZEJte0Ai8SgSiLwjrLXYsQ\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-12T16:42:25.469Z",
+  "preferences": {
+    "privacy.teste privacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "2": {
+              "purpose": "editado pela 3 vez",
+              "documentUrl": "https://www.google.com",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "terms.teste": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "um propósito2",
+              "documentUrl": "https://www.google.com",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "privacy.teste.3": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "algo",
+              "LegalStatementStatus": "Draft"
+            },
+            "2": {
+              "purpose": "algo",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    }
+  }
+}

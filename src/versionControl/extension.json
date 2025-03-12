@@ -1,0 +1,25 @@
+{
+  "callId": "b5b2de860e1d4816a3c17e825e8cdbed",
+  "context": "{\"id\":\"extensions\",\"targetApiKey\":\"4_ZEJte0Ai8SgSiLwjrLXYsQ\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-12T16:42:25.467Z",
+  "result": [
+    {
+      "created": "2025-02-25T09:56:55.0690968Z",
+      "lastModified": "2025-02-25T09:59:49.9400254Z",
+      "extensionFuncUrl": "https://www.teste.com",
+      "description": "",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "3b397e6bdd8a419ea809de13ad660ff5",
+      "extensionPoint": "OnBeforeAccountsRegister",
+      "friendlyName": "teste",
+      "enabled": false
+    }
+  ]
+}
