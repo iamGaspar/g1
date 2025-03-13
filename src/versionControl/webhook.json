@@ -1,11 +1,11 @@
 {
-  "callId": "b4a1755251604b2a893d4b9b6416db53",
+  "callId": "cb3fd0cb73624035884c4cc50faf62a0",
   "context": "{\"id\":\"webhook\",\"targetApiKey\":\"4_qrielmhEi_ntXZH_cXfrSA\"}",
   "errorCode": 0,
   "apiVersion": 2,
   "statusCode": 200,
   "statusReason": "OK",
-  "time": "2025-02-26T12:08:24.347Z",
+  "time": "2025-03-13T09:23:48.231Z",
   "webhooks": [
     {
       "url": "https://www.teste.com/",
@@ -19,7 +19,8 @@
       "version": "3.0",
       "product": "UserManagement",
       "id": "5f060a06-3ba6-4be3-8aca-b3c948a21eb5",
-      "include": []
+      "include": [],
+      "urlType": "Http"
     }
   ]
 }
