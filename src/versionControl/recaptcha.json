@@ -3,13 +3,19 @@
   "recaptchaConfig": [
     {
       "Type": 1,
-      "Key": "test",
-      "Secret": "test"
+      "Key": "pumbas",
+      "Secret": "pumbas"
+    },
+    {
+      "Type": 3,
+      "Key": "pumbas",
+      "Secret": "pumbas",
+      "Data": "{\"Enable\":true,\"RiskAssessmentEP\":{\"Register\":false,\"Login\":true,\"ResetPassword\":false,\"OtpLogin\":false,\"LiteRegistration\":false}}"
     },
     {
       "Type": 2,
-      "Key": "test",
-      "Secret": "test"
+      "Key": "pumbas",
+      "Secret": "pumbas"
     },
     {
       "Type": 4,
@@ -44,7 +50,7 @@
     "signDeviceId": "js_latest"
   },
   "registrationPolicies": {
-    "requireCaptcha": true,
+    "requireCaptcha": false,
     "requireSecurityQuestion": false,
     "requireLoginID": false,
     "enforceCoppa": false
