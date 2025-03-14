@@ -1,11 +1,11 @@
 {
-  "callId": "52145c3ccacc4df6ba21d2f75560d01f",
+  "callId": "f498f5a2133f448f87d2cae84d2eb135",
   "context": "{\"id\":\"schema\",\"targetApiKey\":\"4_qrielmhEi_ntXZH_cXfrSA\"}",
   "errorCode": 0,
   "apiVersion": 2,
   "statusCode": 200,
   "statusReason": "OK",
-  "time": "2025-02-26T12:08:24.384Z",
+  "time": "2025-03-14T14:53:09.956Z",
   "profileSchema": {
     "fields": {
       "education.startYear": {
@@ -44,7 +44,7 @@
         "format": "regex('^(?=(.{1,64}@.{1,255}))([!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9}]{1,64}(\\.[!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9]{0,}){0,})@((\\[(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}\\])|([a-zA-Z0-9-]{1,63}(\\.[a-zA-Z0-9-]{2,63}){1,}))$')",
         "type": "string",
         "allowNull": true,
-        "writeAccess": "serverOnly",
+        "writeAccess": "clientModify",
         "encrypt": "AES"
       },
       "lastLoginLocation.city": {
@@ -137,7 +137,7 @@
         "required": false,
         "type": "long",
         "allowNull": true,
-        "writeAccess": "serverOnly"
+        "writeAccess": "clientModify"
       },
       "timezone": {
         "required": false,
@@ -231,7 +231,7 @@
         "required": false,
         "type": "string",
         "allowNull": true,
-        "writeAccess": "serverOnly",
+        "writeAccess": "clientModify",
         "encrypt": "AES"
       },
       "address": {
@@ -530,7 +530,7 @@
         "required": false,
         "type": "string",
         "allowNull": true,
-        "writeAccess": "serverOnly",
+        "writeAccess": "clientModify",
         "encrypt": "AES"
       },
       "patents.status": {
@@ -715,7 +715,7 @@
         "required": false,
         "type": "string",
         "allowNull": true,
-        "writeAccess": "serverOnly",
+        "writeAccess": "clientModify",
         "encrypt": "AES"
       },
       "work.location": {
@@ -742,7 +742,7 @@
         "required": false,
         "type": "string",
         "allowNull": true,
-        "writeAccess": "serverOnly",
+        "writeAccess": "clientModify",
         "encrypt": "AES"
       },
       "oidcData.address.postal_code": {
@@ -787,7 +787,20 @@
     "dynamicSchema": false
   },
   "dataSchema": {
-    "fields": {},
+    "fields": {
+      "terms": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "subscribe": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      }
+    },
     "dynamicSchema": true
   },
   "subscriptionsSchema": {

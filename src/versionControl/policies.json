@@ -7,6 +7,8 @@
   },
   "gigyaPlugins": {
     "connectWithoutLoginBehavior": "alwaysLogin",
+    "defaultRegScreenSet": "Default-RegistrationLogin",
+    "defaultMobileRegScreenSet": "Default-RegistrationLogin",
     "sessionExpiration": 0,
     "rememberSessionExpiration": 0
   },
@@ -176,6 +178,6 @@
   "statusCode": 200,
   "errorCode": 0,
   "statusReason": "OK",
-  "callId": "0e0e2fd47e884478b899da540eda32ef",
-  "time": "2025-02-26T12:08:24.407Z"
+  "callId": "6918aed678c04769af00dd3133b7157d",
+  "time": "2025-03-14T14:53:10.000Z"
 }
