@@ -1,10 +1,10 @@
 {
-  "callId": "372a22e52c4846edab28214fc21e512b",
+  "callId": "e62119e71589493b99837fb6b1d2270c",
   "errorCode": 0,
   "apiVersion": 2,
   "statusCode": 200,
   "statusReason": "OK",
-  "time": "2025-03-14T15:24:40.046Z",
+  "time": "2025-03-14T16:10:46.094Z",
   "baseDomain": "gaspar.clean.vctest",
   "dataCenter": "eu1",
   "trustedSiteURLs": [
@@ -41,12 +41,12 @@
   "isCDP": false,
   "globalConf": "\r\n{\r\n    // teste2 A comma-delimited list of provider names to enable.\r\n    enabledProviders: '*',\r\n\r\n    // Define the language of Gigya's user interface and error message.\r\n    lang: 'en',\r\n\r\n    // Bind globally to events.\r\n    customEventMap: {\r\n        eventMap: [{\r\n            events: '*',\r\n            args: [function(e) {\r\n                return e;\r\n            }],\r\n            method: function(e) {\r\n                if (e.fullEventName === 'login') {\r\n                    // Handle login event here.\r\n                } else if (e.fullEventName === 'logout') {\r\n                    // Handle logout event here.\r\n                }\r\n            }\r\n        }]\r\n    }\r\n}\r\n",
   "invisibleRecaptcha": {
-    "SiteKey": "cenas",
-    "Secret": "cenas"
+    "SiteKey": "majum",
+    "Secret": "majum"
   },
   "recaptchaV2": {
-    "SiteKey": "cenas",
-    "Secret": "cenas"
+    "SiteKey": "majum",
+    "Secret": "majum"
   },
   "funCaptcha": {
     "SiteKey": "",

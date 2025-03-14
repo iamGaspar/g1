@@ -3,19 +3,13 @@
   "recaptchaConfig": [
     {
       "Type": 1,
-      "Key": "pumbas",
-      "Secret": "pumbas"
-    },
-    {
-      "Type": 3,
-      "Key": "pumbas",
-      "Secret": "pumbas",
-      "Data": "{\"Enable\":true,\"RiskAssessmentEP\":{\"Register\":false,\"Login\":true,\"ResetPassword\":false,\"OtpLogin\":false,\"LiteRegistration\":false}}"
+      "Key": "test",
+      "Secret": "test"
     },
     {
       "Type": 2,
-      "Key": "pumbas",
-      "Secret": "pumbas"
+      "Key": "test",
+      "Secret": "test"
     },
     {
       "Type": 4,
@@ -44,13 +38,13 @@
     },
     "passwordChangeInterval": 0,
     "passwordHistorySize": 0,
-    "riskAssessmentWithReCaptchaV3": false,
+    "riskAssessmentWithReCaptchaV3": true,
     "riskAssessmentWithTransUnion": false,
     "sendUnknownLocationNotification": false,
     "signDeviceId": "js_latest"
   },
   "registrationPolicies": {
-    "requireCaptcha": false,
+    "requireCaptcha": true,
     "requireSecurityQuestion": false,
     "requireLoginID": false,
     "enforceCoppa": false
