@@ -43,7 +43,7 @@
     },
     "passwordChangeInterval": 0,
     "passwordHistorySize": 0,
-    "riskAssessmentWithReCaptchaV3": false,
+    "riskAssessmentWithReCaptchaV3": true,
     "riskAssessmentWithTransUnion": false,
     "sendUnknownLocationNotification": false,
     "signDeviceId": "js_latest"
@@ -178,6 +178,6 @@
   "statusCode": 200,
   "errorCode": 0,
   "statusReason": "OK",
-  "callId": "11dc56bf2eee432fb4c6ca1b38aebe0d",
-  "time": "2025-03-14T15:27:28.287Z"
+  "callId": "72c3a6b76eef4f0f9870544fbab9ea05",
+  "time": "2025-03-14T16:44:27.787Z"
 }

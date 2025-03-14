@@ -52,7 +52,7 @@
       },
       "passwordChangeInterval": 0,
       "passwordHistorySize": 0,
-      "riskAssessmentWithReCaptchaV3": false,
+      "riskAssessmentWithReCaptchaV3": true,
       "riskAssessmentWithTransUnion": false,
       "sendUnknownLocationNotification": false,
       "signDeviceId": "js_latest"
