@@ -9,7 +9,7 @@
   },
   {
     "registration": {
-      "requireCaptcha": true,
+      "requireCaptcha": false,
       "requireSecurityQuestion": false,
       "requireLoginID": false,
       "enforceCoppa": false
@@ -52,7 +52,7 @@
       },
       "passwordChangeInterval": 0,
       "passwordHistorySize": 0,
-      "riskAssessmentWithReCaptchaV3": true,
+      "riskAssessmentWithReCaptchaV3": false,
       "riskAssessmentWithTransUnion": false,
       "sendUnknownLocationNotification": false,
       "signDeviceId": "js_latest"

@@ -1,11 +1,11 @@
 {
-  "callId": "c50f4c5561c240b981130b4f980b36f3",
+  "callId": "9f632cc78a4a4be3a527659c23defe5d",
   "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_qrielmhEi_ntXZH_cXfrSA\"}",
   "errorCode": 0,
   "apiVersion": 2,
   "statusCode": 200,
   "statusReason": "OK",
-  "time": "2025-03-14T14:55:17.854Z",
+  "time": "2025-03-17T07:51:14.182Z",
   "preferences": {
     "privacy.teste privacy": {
       "isActive": false,
@@ -83,7 +83,7 @@
           "minDocVersion": 2,
           "versions": {
             "2": {
-              "purpose": "teste LegalStatement 5",
+              "purpose": "teste LegalStatement 6",
               "documentUrl": "https://www.google.com",
               "LegalStatementStatus": "Draft"
             }
