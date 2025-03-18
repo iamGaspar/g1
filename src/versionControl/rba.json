@@ -9,7 +9,7 @@
   },
   {
     "registration": {
-      "requireCaptcha": true,
+      "requireCaptcha": false,
       "requireSecurityQuestion": false,
       "requireLoginID": false,
       "enforceCoppa": false
