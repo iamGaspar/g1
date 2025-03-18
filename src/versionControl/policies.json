@@ -1,6 +1,6 @@
 {
   "registration": {
-    "requireCaptcha": false,
+    "requireCaptcha": true,
     "requireSecurityQuestion": false,
     "requireLoginID": false,
     "enforceCoppa": false
@@ -178,6 +178,6 @@
   "statusCode": 200,
   "errorCode": 0,
   "statusReason": "OK",
-  "callId": "ab3fb5e2ae7c4e089113486370bc18dc",
-  "time": "2025-03-17T10:41:23.802Z"
+  "callId": "0e519778507b419ea71b1570c9f66f8f",
+  "time": "2025-03-18T12:25:47.043Z"
 }
