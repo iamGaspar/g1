@@ -1,11 +1,11 @@
 {
-  "callId": "360ff6e4b42e42e18662ab71e9f9992b",
+  "callId": "ef77bb52b2564ab897e06e79c0c30588",
   "context": "{\"id\":\"smsTemplates\",\"targetApiKey\":\"4_qrielmhEi_ntXZH_cXfrSA\"}",
   "errorCode": 0,
   "apiVersion": 2,
   "statusCode": 200,
   "statusReason": "OK",
-  "time": "2025-02-26T12:08:24.378Z",
+  "time": "2025-03-19T10:38:10.377Z",
   "templates": {
     "otp": {
       "globalTemplates": {
@@ -52,7 +52,8 @@
           "vi": "Mã xác minh của bạn là: {{code}}"
         },
         "defaultLanguage": "en"
-      }
+      },
+      "templatesPerCountryCode": {}
     },
     "tfa": {
       "globalTemplates": {
@@ -102,7 +103,8 @@
           "zh-tw": "您的驗証碼是:{{code}}"
         },
         "defaultLanguage": "en"
-      }
+      },
+      "templatesPerCountryCode": {}
     }
   }
 }
