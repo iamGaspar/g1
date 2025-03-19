@@ -127,6 +127,9 @@
       }
     },
     "emailNotifications": {
+      "welcomeEmailTemplates": {
+        "bg": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n     <head>\n     <META name=\"from\" content=\"Name <noreply@example.com>\" />\n     <META name=\"subject\" content=\"Welcome to your-site-name\" />\n      </head>\n        <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n          <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px;\">\n              <div style=\"padding:30px 30px 29px;margin: 0 auto;\">\n                <p>Welcome <b>$firstName $lastName!</b></p>\n                <p>Thank you for registering to your-site-name. We are glad you joined.</p>\n                <p>If you have any questions or comments, contact us at <a href='your-support-address@example.com'>your-support-address@example.com</a></p>\n                <p>Hoping to see you back on your-site-name soon.</p>\n                <p> - The <b>your-site-name</b> team</p>\n              </div>\n            </div>\n          </div>\n        </body>\n    </html>\n    "
+      },
       "welcomeEmailDefaultLanguage": "en",
       "accountDeletedEmailDefaultLanguage": "en",
       "confirmationEmailDefaultLanguage": "en"
