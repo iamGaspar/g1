@@ -2,16 +2,16 @@
   "statusCode": 200,
   "errorCode": 0,
   "statusReason": "OK",
-  "callId": "1c2434c67e47478995a68ed07bca77e6",
-  "time": "2025-03-14T16:44:27.801Z",
+  "callId": "2269674ea0014279872cdff7ca4b3b13",
+  "time": "2025-03-19T10:29:31.519Z",
   "context": "{&quot;id&quot;:&quot;socialIdentities&quot;,&quot;targetApiKey&quot;:&quot;4_qrielmhEi_ntXZH_cXfrSA&quot;}",
   "capabilities": "none",
   "settings": "disableGooglePlusLoginScope,linkedIn_Oidc",
   "providers": {
     "facebook": {
       "app": {
-        "appID": "teste1",
-        "secertKey": "teste1"
+        "appID": "teste",
+        "secertKey": "teste"
       },
       "settings": {
         "enableNativeSdk": false,
@@ -34,8 +34,8 @@
     },
     "twitter": {
       "app": {
-        "consumerKey": "teste1",
-        "consumerSecret": "teste1"
+        "consumerKey": "teste",
+        "consumerSecret": "teste"
       },
       "settings": {
         "includeEmail": false,
