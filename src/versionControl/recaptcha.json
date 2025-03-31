@@ -1,0 +1,38 @@
+{
+  "errorCode": 0,
+  "recaptchaConfig": [],
+  "securityPolicies": {
+    "accountLockout": {
+      "failedLoginThreshold": 0,
+      "lockoutTimeSec": 300,
+      "failedLoginResetSec": 0
+    },
+    "captcha": {
+      "failedLoginThreshold": 0
+    },
+    "ipLockout": {
+      "hourlyFailedLoginThreshold": 0,
+      "lockoutTimeSec": 0
+    },
+    "passwordChangeInterval": 25,
+    "passwordHistorySize": 7,
+    "riskAssessmentWithReCaptchaV3": true,
+    "riskAssessmentWithTransUnion": false,
+    "sendUnknownLocationNotification": false,
+    "signDeviceId": "js_latest"
+  },
+  "registrationPolicies": {
+    "requireCaptcha": false,
+    "requireSecurityQuestion": true,
+    "requireLoginID": true,
+    "enforceCoppa": true
+  },
+  "riskProvidersConfig": {
+    "subscriberId": null,
+    "account": null,
+    "password": null,
+    "environment": 0,
+    "integrationPoint": null,
+    "data": null
+  }
+}
