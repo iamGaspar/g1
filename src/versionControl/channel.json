@@ -1,0 +1,78 @@
+{
+  "callId": "c7f820342c4c4f97b40d3d5486e87229",
+  "context": "{\"id\":\"communication_channel_get\",\"targetApiKey\":\"4_B9XQnwui5cazybbc8YXM9A\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-31T07:38:28.521Z",
+  "Channels": {
+    "SMS": {
+      "dependsOn": [
+        {
+          "fieldID": "phoneNumber",
+          "required": true
+        }
+      ],
+      "description": "You can send SMS campaigns via this preconfigured channel",
+      "doubleOptIn": {
+        "validationType": "external",
+        "expiration": 336,
+        "landingPage": ""
+      }
+    },
+    "Email": {
+      "dependsOn": [
+        {
+          "fieldID": "profile.email",
+          "required": true
+        }
+      ],
+      "description": "You can send email campaigns via this preconfigured channel",
+      "doubleOptIn": {
+        "validationType": "emailLink"
+      }
+    },
+    "TeatChannel1": {
+      "dependsOn": [],
+      "description": "",
+      "doubleOptIn": {
+        "validationType": "external",
+        "expiration": 336,
+        "landingPage": ""
+      }
+    },
+    "TestChannel2": {
+      "dependsOn": [
+        {
+          "fieldID": "profile.email",
+          "required": false
+        }
+      ],
+      "description": "",
+      "doubleOptIn": {
+        "validationType": "external",
+        "expiration": 336,
+        "landingPage": ""
+      }
+    },
+    "testeChannel3": {
+      "dependsOn": [],
+      "description": "",
+      "doubleOptIn": {
+        "validationType": "external",
+        "expiration": 336,
+        "landingPage": ""
+      }
+    },
+    "testChannel4": {
+      "dependsOn": [],
+      "description": "",
+      "doubleOptIn": {
+        "validationType": "external",
+        "expiration": 336,
+        "landingPage": ""
+      }
+    }
+  }
+}
