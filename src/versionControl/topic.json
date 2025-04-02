@@ -1,0 +1,21 @@
+{
+  "callId": "dcee40ca06cc45f5935c801a52897964",
+  "context": "{}",
+  "errorCode": 0,
+  "errorDetails": "",
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-02T09:27:39.405Z",
+  "results": [
+    {
+      "topicChannelId": "test",
+      "channel": "SMS",
+      "topic": "test",
+      "description": "cenas",
+      "lastModified": "2025-02-06T17:28:54.054Z"
+    }
+  ],
+  "objectsCount": 1,
+  "totalCount": 1
+}
