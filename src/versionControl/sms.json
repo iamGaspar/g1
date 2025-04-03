@@ -1,0 +1,135 @@
+{
+  "callId": "9b47ac1a91e64ebab8696b34f362028b",
+  "context": "{\"id\":\"smsTemplates\",\"targetApiKey\":\"4_6Tv6z8O6NmUO_BZoHcXIRw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-03T14:27:25.666Z",
+  "templates": {
+    "tfa": {
+      "globalTemplates": {
+        "templates": {
+          "el": "Ο κωδικός επαλήθευσής σας είναι:{{code}}",
+          "sv": "Din verifieringskod är:{{code}}",
+          "pl": "Twój kod weryfikacyjny to:{{code}}",
+          "fa": "کد تایید شما عبارت است از:{{code}}",
+          "ja": "確認コードは次のとおりです:{{code}}",
+          "hi": "आपका सत्यापन कोड यह है:{{code}}",
+          "ru": "Ваш код подтверждения:{{code}}",
+          "fr": "Votre code de vérification est:{{code}}",
+          "sr": "Ваш верификациони код је:{{code}}",
+          "ms": "Kod pengesahan anda ialah:{{code}}",
+          "mr": "तुमच्या सत्यापन कोड हा आहे:{{code}}",
+          "zh-tw": "您的驗証碼是:{{code}}",
+          "tr": "Onay kodunuz:{{code}}",
+          "es-mx": "Su código de verificación es:{{code}}",
+          "ar": "رمز التحقق الخاص بك هو:{{code}}",
+          "zh-cn": "您的验证码是：{{code}}",
+          "vi": "Mã xác minh của bạn là:{{code}}",
+          "no": "Verifiseringskoden din er:{{code}}",
+          "nl": "Je bevestigingscode is:{{code}}",
+          "uk": "Ваш код підтвердження:{{code}}",
+          "tl": "Ang iyong verification code ay:{{code}}",
+          "cs": "Váš ověřovací kód je:{{code}}",
+          "pt-br": "O seu código de verificação é:{{code}}",
+          "th": "รหัสยืนยันของคุณคือ:{{code}}",
+          "br": "Вашият код за потвърждение е:{{code}}dcfdf",
+          "ca": "El teu codi de verificació és:{{code}}",
+          "en": "Your verification code is: {{code}}",
+          "fi": "Vahvistuskoodisi on:{{code}}",
+          "da": "Din bekræftelseskode er:{{code}}",
+          "kn": "ನಿಮ್ಮ ಸರಿಯಾದ ಕೋಡ್ ಏನೆ0ದರೆ:{{code}}",
+          "hu": "A megerősítő kódod:{{code}}",
+          "ko": "당신의 인증번호는:{{code}}",
+          "es": "Su código de verificación es:{{code}}",
+          "sk": "Váš overovací kód je:{{code}}",
+          "ro": "Codul dvs. de verificare este:{{code}}",
+          "id": "Kode verifikasi Anda adalah:{{code}}",
+          "yyef": "你既驗證碼係:{{code}}",
+          "pt": "O seu código de verificação é:{{code}}",
+          "hr": "Vaš verifikacijski kod je:{{code}}",
+          "he": "קוד האישור שלך הוא:{{code}}",
+          "it": "Il tuo codice di verifica è:{{code}}",
+          "sl": "Vaša koda za potrditev je:{{code}}",
+          "de": "Ihr Bestätigungscode lautet:{{code}}"
+        },
+        "defaultLanguage": "en"
+      },
+      "templatesPerCountryCode": {
+        "1": {
+          "templates": {
+            "en": "Here is your code: {{code}}"
+          },
+          "defaultLanguage": "en"
+        },
+        "34": {
+          "templates": {
+            "en": "Here is your code: {{code}}"
+          },
+          "defaultLanguage": "en"
+        },
+        "55": {
+          "templates": {
+            "en": "Here is your code: {{code}}"
+          },
+          "defaultLanguage": "en"
+        },
+        "351": {
+          "templates": {
+            "en": "Here is your code: {{code}}"
+          },
+          "defaultLanguage": "en"
+        }
+      }
+    },
+    "otp": {
+      "globalTemplates": {
+        "templates": {
+          "el": "Ο κωδικός επαλήθευσής σας είναι: {{code}}",
+          "sv": "Din verifieringskod är: {{code}}",
+          "pl": "Twój kod weryfikacyjny to: {{code}}",
+          "ja": "確認コードは次のとおりです: {{code}}",
+          "hi": "आपका सत्यापन कोड यह है: {{code}}",
+          "en": "Your verification code is: {{code}}",
+          "ru": "Ваш код подтверждения: {{code}}",
+          "zh-hk": "你既驗證碼係: {{code}}",
+          "fr": "Votre code de vérification est: {{code}}",
+          "sr": "Ваш верификациони код је: {{code}}",
+          "ms": "Kod pengesahan anda ialah: {{code}}",
+          "mr": "तुमच्या सत्यापन कोड हा आहे: {{code}}",
+          "zh-tw": "您的驗証碼是: {{code}}",
+          "tr": "Onay kodunuz: {{code}}",
+          "es-mx": "Su código de verificación es: {{code}}",
+          "ar": "رمز التحقق الخاص بك هو:{{code}}",
+          "zh-cn": "您的验证码是： {{code}}",
+          "vi": "Mã xác minh của bạn là: {{code}}",
+          "nl": "Uw verificatiecode is: {{code}}",
+          "uk": "Ваш код підтвердження: {{code}}",
+          "tl": "Ang iyong verification code ay: {{code}}",
+          "pt-br": "O seu código de verificação é: bruno {{code}}",
+          "th": "รหัสยืนยันของคุณคือ: {{code}}",
+          "br": "Вашият код за потвърждение е: {{code}}",
+          "ca": "El teu codi de verificació és: {{code}}",
+          "fi": "Vahvistuskoodisi on: {{code}}",
+          "da": "Din bekræftelseskode er: {{code}}",
+          "kn": "ನಿಮ್ಮ ಸರಿಯಾದ ಕೋಡ್ ಏನೆ0ದರೆ: {{code}}",
+          "hu": "A megerősítő kódod: {{code}}",
+          "ko": "당신의 인증번호는: {{code}}",
+          "es": "El código de verificación es: {{code}}",
+          "sk": "Váš overovací kód je: {{code}}",
+          "ro": "Codul dvs. de verificare este: {{code}}",
+          "id": "Kode verifikasi Anda adalah: {{code}}",
+          "hr": "Váš ověřovací kód je: {{code}}",
+          "he": "{{code}} :קוד האישור שלך הוא",
+          "pt": "O seu código de verificação é: {{code}}",
+          "it": "Il tuo codice di verifica è: {{code}}",
+          "sl": "Vaša koda za potrditev je: {{code}}",
+          "de": "Ihr Bestätigungscode lautet: {{code}}"
+        },
+        "defaultLanguage": "pt"
+      },
+      "templatesPerCountryCode": {}
+    }
+  }
+}

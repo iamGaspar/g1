@@ -1,0 +1,59 @@
+{
+  "callId": "366328170d364eddbbad62dec1480c12",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_6Tv6z8O6NmUO_BZoHcXIRw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-03T14:27:25.755Z",
+  "preferences": {
+    "terms.termsOfService": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "sap.com",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.new_terms": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "sap.com",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    }
+  }
+}

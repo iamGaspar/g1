@@ -1,0 +1,45 @@
+{
+  "callId": "ffb439d3d3c24035a3321fb9a428f494",
+  "context": "{\"id\":\"webhook\",\"targetApiKey\":\"4_6Tv6z8O6NmUO_BZoHcXIRw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-03T14:27:25.728Z",
+  "webhooks": [
+    {
+      "url": "https://testtemplates.com/",
+      "name": "_cdc-toolbox-source-templates_",
+      "active": true,
+      "events": [
+        "accountCreated",
+        "accountRegistered",
+        "accountUpdated",
+        "accountDeleted",
+        "accountLoggedIn"
+      ],
+      "useXfCredentials": false,
+      "headers": [],
+      "version": "2.0",
+      "product": "UserManagement",
+      "id": "1f949004-b835-4a57-8868-184625bb55a3",
+      "urlType": "Http"
+    },
+    {
+      "url": "https://console.gigya.com/#/79597568/4_6Tv6z8O6NmUO_BZoHcXIRw/orchestrate/web-hooks/create",
+      "name": "testingProject",
+      "active": true,
+      "events": [
+        "accountUpdated",
+        "accountDeleted",
+        "accountLoggedIn"
+      ],
+      "useXfCredentials": false,
+      "headers": [],
+      "version": "3.0",
+      "product": "UserManagement",
+      "id": "240d22c2-0dd5-42af-b0a6-66fcc8d6155b",
+      "urlType": "Http"
+    }
+  ]
+}

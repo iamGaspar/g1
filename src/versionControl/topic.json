@@ -1,0 +1,59 @@
+{
+  "callId": "cc92427f29bf41ff950a92d88ca1b1fc",
+  "context": "{}",
+  "errorCode": 0,
+  "errorDetails": "",
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-03T14:27:25.684Z",
+  "results": [
+    {
+      "schema": {
+        "properties": {
+          "optIn": {
+            "properties": {
+              "data1": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "data1"
+            ]
+          }
+        }
+      },
+      "topicChannelId": "TEST_EMAIL",
+      "channel": "Email",
+      "topic": "Test",
+      "description": "TEST_EMAIL_DESC",
+      "lastModified": "2024-07-10T08:57:16.187Z"
+    },
+    {
+      "schema": {
+        "properties": {
+          "optIn": {
+            "properties": {
+              "data2": {
+                "type": "string"
+              },
+              "data1": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "data1"
+            ]
+          }
+        }
+      },
+      "topicChannelId": "TEST_SMS",
+      "channel": "SMS",
+      "topic": "Test",
+      "description": "TEST_SMS_DESCRIPTION",
+      "lastModified": "2024-07-10T08:57:16.845Z"
+    }
+  ],
+  "objectsCount": 2,
+  "totalCount": 2
+}
