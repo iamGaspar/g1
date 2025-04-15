@@ -4,7 +4,8 @@
       "isActive": false,
       "isMandatory": true,
       "langs": [
-        "en"
+        "en",
+        "ca"
       ],
       "consentVaultRetentionPeriod": 36,
       "enforceLocaleReconsent": true,
@@ -16,6 +17,17 @@
           "versions": {
             "0": {
               "purpose": "consent1 test0",
+              "documentUrl": "https://www.google.pt",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        },
+        "ca": {
+          "currentDocVersion": 0,
+          "minDocVersion": 0,
+          "versions": {
+            "0": {
+              "purpose": "test0",
               "documentUrl": "https://www.google.pt",
               "LegalStatementStatus": "Draft"
             }
