@@ -15,8 +15,8 @@
           "currentDocVersion": 0,
           "minDocVersion": 0,
           "versions": {
-            "0": {
-              "purpose": "consent1 test0",
+            "1": {
+              "purpose": "consent1 test1",
               "documentUrl": "https://www.google.pt",
               "LegalStatementStatus": "Draft"
             }
