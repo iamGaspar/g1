@@ -92,6 +92,11 @@
               "purpose": "test0",
               "documentUrl": "https://www.google.pt",
               "LegalStatementStatus": "Draft"
+            },
+            "1": {
+              "purpose": "test1",
+              "documentUrl": "https://www.google.pt",
+              "LegalStatementStatus": "Draft"
             }
           }
         }
