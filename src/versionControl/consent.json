@@ -15,6 +15,11 @@
           "currentDocVersion": 0,
           "minDocVersion": 0,
           "versions": {
+            "0": {
+              "purpose": "consent1 test0",
+              "documentUrl": "https://www.google.pt",
+              "LegalStatementStatus": "Draft"
+            },
             "1": {
               "purpose": "consent1 test1",
               "documentUrl": "https://www.google.pt",
@@ -30,6 +35,42 @@
               "purpose": "test0",
               "documentUrl": "https://www.google.pt",
               "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "privacy.policy1": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "da"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 0,
+          "minDocVersion": 0,
+          "versions": {
+            "0": {
+              "purpose": "teste0",
+              "documentUrl": "www.gooogle.pt",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        },
+        "da": {
+          "publishedDocVersion": 0,
+          "currentDocVersion": 0,
+          "minDocVersion": 0,
+          "versions": {
+            "0": {
+              "purpose": "test0",
+              "documentUrl": "https://www.google.pt",
+              "LegalStatementStatus": "Published"
             }
           }
         }
