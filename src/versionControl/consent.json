@@ -45,7 +45,8 @@
       "isMandatory": true,
       "langs": [
         "en",
-        "da"
+        "da",
+        "fr"
       ],
       "consentVaultRetentionPeriod": 36,
       "enforceLocaleReconsent": true,
@@ -59,18 +60,38 @@
               "purpose": "teste0",
               "documentUrl": "www.gooogle.pt",
               "LegalStatementStatus": "Draft"
+            },
+            "1": {
+              "purpose": "teste1",
+              "documentUrl": "www.gooogle.pt",
+              "LegalStatementStatus": "Draft"
             }
           }
         },
         "da": {
-          "publishedDocVersion": 0,
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "0": {
+              "purpose": "test0",
+              "documentUrl": "https://www.google.pt"
+            },
+            "1": {
+              "purpose": "test1",
+              "documentUrl": "https://www.google.pt",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "fr": {
           "currentDocVersion": 0,
           "minDocVersion": 0,
           "versions": {
             "0": {
               "purpose": "test0",
               "documentUrl": "https://www.google.pt",
-              "LegalStatementStatus": "Published"
+              "LegalStatementStatus": "Draft"
             }
           }
         }
