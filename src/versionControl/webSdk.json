@@ -1,10 +1,4 @@
 {
-  "callId": "ab17126aa65e47af83da67134e0cf1c7",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-17T11:00:04.242Z",
   "baseDomain": "gaspar.captcha.child.2",
   "siteGroupOwner": "4_3zsvwuLLkw5lIWpNyFDvug",
   "dataCenter": "us1",
@@ -34,6 +28,7 @@
   ],
   "enableDataSharing": true,
   "isCDP": false,
+  "globalConf": "\r\n{\r\n    // A comma-delimited list of provider names to enable.\r\n    enabledProviders: '*',\r\n\r\n    // Define the language of Gigya's user interface and error message.\r\n    lang: 'en',\r\n\r\n    // Bind globally to events.\r\n    customEventMap: {\r\n        eventMap: [{\r\n            events: '*',\r\n            args: [function(e) {\r\n                return e;\r\n            }],\r\n            method: function(e) {\r\n                if (e.fullEventName === 'login') {\r\n                    // Handle login event here.\r\n                } else if (e.fullEventName === 'logout') {\r\n                    // Handle logout event here.\r\n                }\r\n            }\r\n        }]\r\n    }\r\n}\r\n",
   "invisibleRecaptcha": {
     "SiteKey": "testeFinal2",
     "Secret": "testeFinal2"
@@ -48,6 +43,5 @@
   },
   "customAPIDomainPrefix": "",
   "jwtKeyVersion": 2,
-  "enableHSTS": false,
-  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_rxUWg27L_PIEl-cg6fH8tw\"}"
+  "enableHSTS": false
 }
