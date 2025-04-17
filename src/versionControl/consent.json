@@ -1,0 +1,57 @@
+{
+  "callId": "a4668d9788f14d0baac8684a0ec6e1cc",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_rxUWg27L_PIEl-cg6fH8tw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-17T11:00:04.381Z",
+  "preferences": {
+    "terms.teste": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "um propósito2",
+              "documentUrl": "https://www.google.com",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "privacy.teste privacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "2": {
+              "purpose": "outro propósito2",
+              "documentUrl": "https://www.google.com",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    }
+  }
+}
