@@ -1,0 +1,25 @@
+{
+  "callId": "fae532ee418b468dad25db841a2d3dea",
+  "context": "{\"id\":\"extensions\",\"targetApiKey\":\"4_tgFwWM4Lx25GQ6G4KNOKAQ\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-17T10:58:07.682Z",
+  "result": [
+    {
+      "created": "2024-09-25T14:18:07.1904438Z",
+      "lastModified": "2025-04-17T08:45:37.0167173Z",
+      "extensionFuncUrl": "https://b75a-2001-8a0-6f04-7100-f857-e539-4af4-e8b0.ngrok-free.app",
+      "description": "Avoid Automatic login after Social Registration",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "7ad046fc7af84d119a9a1f05e16b91a0",
+      "extensionPoint": "OnBeforeAccountsRegister",
+      "friendlyName": "TestBlockSocialLoginAfterRegistration",
+      "enabled": true
+    }
+  ]
+}
