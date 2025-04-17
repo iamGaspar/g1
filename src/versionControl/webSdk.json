@@ -30,7 +30,7 @@
   ],
   "enableDataSharing": true,
   "isCDP": false,
-  "globalConf": "undefined",
+  "globalConf": "testes_3;",
   "invisibleRecaptcha": {},
   "recaptchaV2": {},
   "funCaptcha": {},
