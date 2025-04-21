@@ -1,0 +1,4148 @@
+{
+  "callId": "ecf0c43b084d406590c8db4c2277be18",
+  "context": "{\"id\":\"schema\",\"targetApiKey\":\"4_N0iqyV-a23AASPpPTp4WDg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-21T16:00:26.977Z",
+  "profileSchema": {
+    "fields": {
+      "photoURL": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.address.locality": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.activities.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.number": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "religion": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.movies.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.formatted": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.music.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.timestamp": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "birthYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "oidcData.website": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "phones.type": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.date": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.television.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "languages": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.startDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.country": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "industry": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "firstName": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "publications.publisher": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.interests.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "city": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "publications.url": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "phones.number": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.movies.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "verified": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.activities.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.endDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.description": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "gender": {
+        "required": false,
+        "format": "regex('^[fmu]{1}$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "hometown": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.books.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.interests.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.music.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "followersCount": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "birthDay": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "certifications.startDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.title": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "interests": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.industry": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "lastName": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "patents.status": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "locale": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "likes.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.phone_number_verified": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "skills.level": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "relationshipStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "education.endYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "honors": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.interests.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "age": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "bio": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "state": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.phone_number": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.locale": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.coordinates.lat": {
+        "required": false,
+        "type": "float",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.coordinates.lon": {
+        "required": false,
+        "type": "float",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.location": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.address.region": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.address.postal_code": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "lastLoginLocation.state": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.startYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.books.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.school": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "professionalHeadline": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "email": {
+        "required": false,
+        "format": "regex('^(?=(.{1,64}@.{1,255}))([!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9}]{1,64}(\\.[!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9]{0,}){0,})@((\\[(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}\\])|([a-zA-Z0-9-]{1,63}(\\.[a-zA-Z0-9-]{2,63}){1,}))$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "lastLoginLocation.city": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.music.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "politicalView": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "skills.skill": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "educationLevel": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.schoolType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "timezone": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.authority": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.fieldOfStudy": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "publications.title": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "publications.summary": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "address": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "proxyemail": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.activities.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.television.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "followingCount": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "profileURL": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "thumbnailURL": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "work.endDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "specialities": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.updated_at": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "work.company": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "phones.default": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "interestedIn": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.companyID": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "birthMonth": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "favorites.books.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.television.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.url": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.office": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.summary": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.email_verified": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.middle_name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "work.companySize": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "skills.years": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.number": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.movies.id": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.isCurrent": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.time": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "nickname": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "lastLoginLocation.country": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.zoneinfo": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.street_address": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "username": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "zip": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "publications.date": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "country": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "education.degree": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.category": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "activities": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.title": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      }
+    },
+    "dynamicSchema": false
+  },
+  "dataSchema": {
+    "fields": {
+      "phoneDataQualityStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "externalApplication.applicationCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.model": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "formula1_team": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "gigyaImportAutoPassword": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "child.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "integerField": {
+        "required": false,
+        "type": "integer",
+        "allowNull": false,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGgoldlearners": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.petNutrition": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "householdAdultsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "digitalAsset.typeOfInformation": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isEmailValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.revocationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.overweight": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "idxImportJobId": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "subType": "none"
+      },
+      "data_test_schema_2": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.areaOfInterest.answerDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "ownId.connections.fido2SignatureCounter": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "ownId.connections.authType": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "consumerType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_lastregstep": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.petSizeCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.senior": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "creationDates": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": []
+      },
+      "child.milestoneDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "companyName": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "pet.isDeleted": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "ownId.connections.pubKey": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "areaOfInterest.answerDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.registrationReferenceID": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "doNotContactAddress": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "maritalStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isPostalAddressValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.answerDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.name": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "pet.digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.isDeleted": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "marketCode": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.dentalHealth": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "externalApplication.internalAlternateIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "asset.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "favouriteCar.brand": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "formula1_team3": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "subType": "none"
+      },
+      "nutritionCookingLevel": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "formula1_team2": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "pet.digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.petTypeCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.creationDates": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "tags": []
+      },
+      "asset.source": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "mobile": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.interestType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.indoorPet": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.young": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "subscribe": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOwnsDogs": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.coatColor": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "data_test_schema": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isPhoneValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.feeding": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.skinSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "countryCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isPrimary": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "emailDataQualityStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "areaOfInterest.interestCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.relationshipType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingDislikes": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.sex": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "ownId.connections.additionalData": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.answerDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingFor": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.assetSerialNb": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "ownId.connections.recoveryId": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "nutritionCookingLikes": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.details": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "externalApplication.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.assetType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "registrationType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.registrationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "externalApplication.internalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "nutritionDiet": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.wetFoodBrand": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.interestCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isContactDisallowed": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "favouriteCar.topSpeedKmH": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "pet.kidneyHealth": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.furType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isDeleted": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "doNotContactPhone": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "nutritionCookingFrequency": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.optoutSourceApplication": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "PremiumMember": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": false,
+        "writeAccess": "clientModify",
+        "tags": []
+      },
+      "child.firstName": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "likesCars": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "tags": []
+      },
+      "digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "streetAddress": {
+        "required": false,
+        "type": "text",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.warrantyEndDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.applicationInternalIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "ownId.connections.fido2CredentialId": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "pet.breed": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.size": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.hairballCare": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.interestType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "favouriteCar.yearOfRelease": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "child.isDeleted": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOwnsCats": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.dryFoodBrand": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "phone": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "pet.neutered": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOtherPetsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "mobileDataQualityStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "ownId.connections.recoveryEncData": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "asset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "terms": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.interestCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdDogsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "zipCodeExtension": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.initials": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "ownId.connections.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "householdOwnsPets": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigyaImportJobID": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "pet.pregnantNursing": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "nutritionSensitiveRisk": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "salutation": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.interestType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.urinarySystemSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.brand": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "initialAppSourceCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingStyle": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "liteAppSourceCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isMobileValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.digitalAsset.typeOfInformation": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.type": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "education": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "householdChildrenCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.marketingGroupService": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.acceptanceDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.isWomanFirstPregnancy": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "doNotContactEmail": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.interestType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "ownId.connections.keyHsh": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "householdCatsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.digestiveSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.purchaseDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.atopicRisk": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "membershipCodes": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
+      "child.multipleBirth": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.revocationDetails": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "favouriteCar.Model": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientModify",
+        "tags": [],
+        "subType": "none"
+      },
+      "optin.optinSourceApplication": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "region": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "addressLine4": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "pet.adoptionDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "additionalName2": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "optin.acceptanceDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.interestCode": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "additionalName1": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "externalApplication.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.sex": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.workingDog": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "addressLine1": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "addressLine2": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "addressLine3": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "occupation": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "ownId.connections.source": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientCreate",
+        "subType": "none"
+      },
+      "gigsys_RGinfantnut": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_ignore": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "dataQualityStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.contactChannelType": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.adoptionSource": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.digitalAsset.typeOfInformation": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "doNotContactMobile": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "addressDataQualityStatus": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "title": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "tags": []
+      },
+      "child.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdResidentsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "test": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.milestone": {
+        "required": false,
+        "format": "regex('^[^<>()!¡]*$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      }
+    },
+    "dynamicSchema": false
+  },
+  "subscriptionsSchema": {
+    "fields": {
+      "newsletters": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Subscription for Weekly Newsletters",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "subscription_test_field": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "subscription_test_field1": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "mySubscriptionOne": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Demo",
+          "enableConditionalDoubleOptIn": true,
+          "relatedConsentIds": null
+        }
+      },
+      "subscription_test_field2": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "test": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEnescafeazera_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestleWaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEkitkat_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe3in1_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescaferedmug_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlegrp_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MAnestlegrp_OOnestle": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "LBnestlewaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestle_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEkitkat_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBnidofc": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEinfantnut_SBbbyadvml": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestlewaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnhs_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestleWaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "QAnestlewaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafegold_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEbuyonline_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafegold_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafeazera_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "BHnestleWaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestle_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestlegrp_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEoptifast_RGabove18": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestleWaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "BHnestleWaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "LBnestlewaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEpurina_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestlegrp_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlegrp_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestle_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestlegrp_SBcrossnl": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestleWaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafeoriginal_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "SAnestlegrp_OOnestle": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescaferedmug_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe3in1_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEpurina_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlefam_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEoptifast_Rgprivacypolicy": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe3in1_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBnido1plus": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEkitkat_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEinfantnut_SBbbypostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlefam_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlefam_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestleWaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "SAinfantnut_SBbbypostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnestlegrp_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "SAinfantnut_SBbbyadvml": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnestlegrp_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafe_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEmaggime_RGabove18": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestleWaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEbuyonline_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_RGabove18": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "QAnestlewaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnhs_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafeazera_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "SAinfantnut_RGinfantnut": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "LBnestlewaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEkitkat_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestlewaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEbuyonline_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEinfantnut_RGgoldlearners": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescaferedmug_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafeoriginal_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOnestlewaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBnidolowfat": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "BHnestleWaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEmaggime_RGtcandprivacy": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnido_SBnido3plus": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnhs_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafeoriginal_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEpurina_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MAnin_SBbbyadvml": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEnhs_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEnescafegold_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "QAnestlewaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AEvitalproteins_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEvitalproteins_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEvitalproteins_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEmcmn_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEmcmn_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEmcmn_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAnestleWaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAnestleWaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAnestleWaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEdessertsarabia_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEdessertsarabia_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEdessertsarabia_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEnesquik_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEnesquik_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEnesquik_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEcereals_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEcereals_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "AEcereals_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEmychildnutrition_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEmychildnutrition_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEmychildnutrition_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEfacebookleads_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEqualifio_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "MEwaters_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "QAalmanhalwaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "QAalmanhalwaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "QAalmanhalwaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAalmanhalwaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAalmanhalwaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "SAalmanhalwaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "BHalmanhalwaters_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "BHalmanhalwaters_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "BHalmanhalwaters_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEOPTIFAST_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEOPTIFAST_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEOPTIFAST_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "MEnestle_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "JOghadeerwater_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOghadeerwater_SBmktphone": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "JOghadeerwater_SBmktsms": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnestle_SBcrossnl": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Cross NL",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnhs_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATwobenzym_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATpurina_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Purina NL",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnestle_SBprofiling": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Profiling",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AToptifibre_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATwobenzym_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnhs_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "AToptifibre_SBsamplepostal": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATconfectionary_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATconfectionery_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "Confectionary NL",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATcoffee_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATfood_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnesquik_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATstarbuckssignaturechocolate_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATbabyandme_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATstarbucksathome_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATnescafefarmersorigins_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATcereals_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATlioncereals_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATkitkatcereals_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnesquikcereals_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATciniminis_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnhsc_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATcereals_SBprofiling": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATgardengourmet_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATnescafe_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATpurinakitten_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      },
+      "ATfacebookleads_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": false,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": null
+        }
+      },
+      "ATqualifio_SBmktprogram": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": true,
+          "relatedConsentIds": null
+        }
+      },
+      "ATpurinaone_SBmktemail": {
+        "email": {
+          "required": false,
+          "type": "subscription",
+          "writeAccess": "clientModify",
+          "doubleOptIn": true,
+          "description": "",
+          "enableConditionalDoubleOptIn": false,
+          "relatedConsentIds": []
+        }
+      }
+    }
+  },
+  "internalSchema": {
+    "fields": {},
+    "dynamicSchema": false
+  },
+  "addressesSchema": {
+    "fields": {}
+  }
+}

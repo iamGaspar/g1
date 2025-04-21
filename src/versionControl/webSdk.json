@@ -1,0 +1,61 @@
+{
+  "callId": "5a392f7ad54148aa9636bad4cbe9d0f0",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-21T16:00:27.119Z",
+  "baseDomain": "dev.parent.martins.com",
+  "dataCenter": "eu1",
+  "trustedSiteURLs": [
+    "dev.eu.parent.martins.parent.domain.com/*",
+    "*.dev.eu.parent.martins.parent.domain.com/*"
+  ],
+  "tags": [],
+  "description": "",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "members": [
+      "4_MLtT5X_BXTWLaL3mNYDemw",
+      "4_6jKJhiT-LOK70I5s3oMZ-Q",
+      "4_f9x7go7FT3-mFhhVUz_-jA",
+      "4_2C9xxjm5bV8IAClIj63ldw",
+      "4_9PYEWsWvUuDCzUGINt1Cow",
+      "4_NTL9AXFF3fDsYKeZ2rupVw"
+    ],
+    "enableSSO": true
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "globalConf": "{\r\n  // 'ENABLED_GTM' from template 'gtm-integration' automatically generated on 2021-11-29T13:22:10.776Z\r\n  ENABLED_GTM: false,\r\n\r\n  // 'brand' from template 'child-nestle-screenset-template' automatically generated on 2021-11-29T13:22:14.174Z\r\n  brand: {\r\n    data: {\r\n      \r\n    },\r\n    screensetIDs: 'gigya-register-form,gigya-profile-form,gigya-subscribe-with-email-form'\r\n  },\r\n  \r\n    generateUUID: function(e) {\r\n    var d = new Date().getTime();\r\n    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\r\n      var r = (d + Math.random() * 16) % 16 | 0;\r\n      d = Math.floor(d / 16);\r\n      return (c == 'x' ? r : (r & 0x3) | 0x8).toString(16);\r\n    });\r\n    return uuid;\r\n  },\r\n  \r\n\r\n  // 'customLang' from template 'child-nestle-screenset-template' automatically generated on 2021-11-29T13:22:14.174Z\r\n  customLang: {\r\n    email_already_exists: 'You are already part of the Nestlé Family.',\r\n    email_already_exists_link: 'Go to login page'\r\n  },\r\n\r\n  // 'enabledProviders' from template 'child-nestle-screenset-template' automatically generated on 2021-11-29T13:22:14.174Z\r\n  enabledProviders: '*',\r\n\r\n  // 'gmt_integrationScriptUrl' from template 'gtm-integration' automatically generated on 2021-11-29T13:22:10.776Z\r\n  gmt_integrationScriptUrl: 'https://cdn.az.ciam.nestle.com/ganalytics/gtm.js',\r\n\r\n  // 'lang' from template 'child-nestle-screenset-template' automatically generated on 2021-11-29T13:22:14.174Z\r\n  lang: 'en',\r\n\r\n  customEventMap: {\r\n    eventMap: [\r\n      {\r\n        events: '*',\r\n        args: [\r\n          function(e) {\r\n            return e;\r\n          }\r\n        ],\r\n        method: function(e) {\r\n          if (e.fullEventName === 'login') {\r\n            // Handle login event here.\r\n          } else if (e.fullEventName === 'logout') {\r\n            // Handle logout event here.\r\n          }\r\n        }\r\n      },\r\n      {\r\n        events: '*',\r\n        args: [\r\n          function(e) {\r\n            // eventMap generated automatically for 'gtm-integration' on date: 2021-11-29T13:22:10.776Z\r\n\r\n            var eventName = e.eventName;\r\n            var methodName = e.methodName;\r\n\r\n            var loadingFunction = function() {\r\n              return false;\r\n            };\r\n\r\n            // Defining functions in a secure way\r\n            var trackOnAfterScreenLoadEventsIfDefined = typeof trackOnAfterScreenLoadEvents !== 'undefined' ? trackOnAfterScreenLoadEvents : loadingFunction;\r\n            var trackBeforeRequestEventsIfDefined = typeof trackBeforeRequestEvents !== 'undefined' ? trackBeforeRequestEvents : loadingFunction;\r\n            var trackAfterResponseEventsIfDefined = typeof trackAfterResponseEvents !== 'undefined' ? trackAfterResponseEvents : loadingFunction;\r\n            var trackBeforeSubmitEventsIfDefined = typeof trackBeforeSubmitEvents !== 'undefined' ? trackBeforeSubmitEvents : loadingFunction;\r\n            var trackAfterSubmitEventsIfDefined = typeof trackAfterSubmitEvents !== 'undefined' ? trackAfterSubmitEvents : loadingFunction;\r\n            var trackCloseScreensetEventsIfDefined = typeof trackCloseScreensetEvents !== 'undefined' ? trackCloseScreensetEvents : loadingFunction;\r\n\r\n            // Mapping to the correct function\r\n            switch (eventName) {\r\n              case 'afterScreenLoad':\r\n                trackOnAfterScreenLoadEventsIfDefined(e);\r\n                break;\r\n              case 'beforeRequest':\r\n                trackBeforeRequestEventsIfDefined(e);\r\n                break;\r\n              case 'afterResponse':\r\n                trackAfterResponseEventsIfDefined(e);\r\n                break;\r\n              case 'beforeSubmit':\r\n                trackBeforeSubmitEventsIfDefined(e);\r\n                break;\r\n              case 'afterSubmit':\r\n                trackAfterSubmitEventsIfDefined(e);\r\n                break;\r\n              case 'hide':\r\n                trackCloseScreensetEventsIfDefined(e);\r\n                break;\r\n            }\r\n\r\n            return e;\r\n          }\r\n        ],\r\n        method: function(e) {\r\n          if (e.fullEventName === 'login') {\r\n            // Handle login event here.\r\n          } else if (e.fullEventName === 'logout') {\r\n            // Handle logout event here.\r\n          }\r\n        }\r\n      },\r\n      {\r\n        events: '*',\r\n        args: [\r\n          function(e) {\r\n            // eventMap generated automatically for 'child-nestle-screenset-template' on date: 2021-11-29T13:22:14.174Z\r\n            return e;\r\n          }\r\n        ],\r\n        method: function(e) {\r\n          if (e.eventName === 'submit' && gigya.thisScript.globalConf.brand.screensetIDs.toString().indexOf(e.form) >= 0) {\r\n            e.formModel.data = gigya.thisScript.globalConf.setMetadata(e);\r\n            e.formModel.preferences = gigya.thisScript.globalConf.setConsentTags(e);\r\n            e.formModel.subscriptions = gigya.thisScript.globalConf.setSubscriptionTags(e);\r\n          }\r\n        }\r\n      }\r\n    ]\r\n  },\r\n\r\n  onGigyaServiceReady: function(serviceName) {\r\n    // [ BEGIN 'gtm-integration' ] - Import file section automatically generated on 2021-11-29T13:22:10.783Z\r\n\r\n    // Check if we must enable the integration or not\r\n    var HAS_ENABLED_GTM = gigya.thisScript.globalConf.ENABLED_GTM;\r\n    var scriptSrc = gigya.thisScript.globalConf.gmt_integrationScriptUrl;\r\n\r\n    if (HAS_ENABLED_GTM === true) {\r\n      // Append script to body\r\n      var script = document.createElement('script');\r\n      script.setAttribute('src', scriptSrc);\r\n      document.head.appendChild(script);\r\n\r\n      // Logging info\r\n      console.log('GTM loaded from Global Conf');\r\n    } else {\r\n      console.log('-> GTM not enabled in Global Conf. %cGTM script not loaded.', 'color:red');\r\n    }\r\n\r\n    // [ END 'gtm-integration' ] - Import file section automatically generated on 2021-11-29T13:22:10.783Z\r\n  }\r\n  //\r\n  // ciam © nestle - last update: 2021-11-29T13:22:14.185Z\r\n}",
+  "invisibleRecaptcha": {
+    "SiteKey": "",
+    "Secret": ""
+  },
+  "recaptchaV2": {
+    "SiteKey": "6Ldqzk4qAAAAAKm0bsyuDftyZzZ6BZfzRmUo8vQk",
+    "Secret": "6Ldqzk4qAAAAAG7krahjcN0gbfo8cXrxDBgJwArk"
+  },
+  "funCaptcha": {
+    "SiteKey": "",
+    "Secret": ""
+  },
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 2,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_N0iqyV-a23AASPpPTp4WDg\"}"
+}

@@ -1,0 +1,3013 @@
+{
+  "callId": "4a9c95747fbb41fcaad7e58aba95fba2",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_N0iqyV-a23AASPpPTp4WDg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-21T16:00:27.156Z",
+  "preferences": {
+    "terms.global.termsOfUse": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "We need this consent to allow you to use this site. Acceptance of this consent means you agree to follow the Terms of Service",
+              "documentUrl": " https://www.car-dealer.com/terms/termsOfService_July19.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.global.privacyPolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "This consent defines how we store and use your personal information. Acceptance of this consent means you accept the terms of our Privacy Policy",
+              "documentUrl": "https://www.car-dealer.com/privacy/privacyPolicy_May19.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.global.privacyPolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "This consent defines how we store and use your personal information. Acceptance of this consent means you accept the terms of our Privacy Policy",
+              "documentUrl": "https://www.car-dealer.com/privacy/privacyPolicy_May19.pdf"
+            },
+            "2": {
+              "purpose": "This consent defines how we store and use your personal information. Acceptance of this consent means you accept the terms of our Privacy Policy",
+              "documentUrl": "https://www.car-dealer.com/privacy/privacyPolicy_May19.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "cardealer.allowPersonalization": {
+      "isActive": true,
+      "isMandatory": false,
+      "langs": [
+        "en",
+        "pt-br"
+      ],
+      "customData": [
+        {
+          "key": "contactPerson",
+          "value": "personalization@car-dealer.com"
+        }
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "We think you may benefit from personalisation offered on this site. Acceptance of this consent means you agree to the selected information being used to offer personalisation",
+              "documentUrl": "https://www.car-dealer.com/terms/personalization_v1.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "pt-br": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "cardealer.allowPersonalization1": {
+      "isActive": false,
+      "isMandatory": false,
+      "langs": [
+        "en",
+        "pt-br"
+      ],
+      "customData": [
+        {
+          "key": "contactPerson",
+          "value": "personalization@car-dealer.com"
+        }
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.MXnescafebr_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nescafe.com/mx/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXbeneful_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "es-mx",
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/beneful/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "es-mx": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el Aviso de Privacidad.",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXproplan_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "es-mx",
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/proplan/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "es-mx": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el Aviso de Privacidad.",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurinafelix_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/felix/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.gigsys_RGgoodcare": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "TEST"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.MXcatchow_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/catchow/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnescafe_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "es",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurina_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/purina/politicas-de-privacidad "
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnhs_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnsquikbrd_RGnsquikst": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXinfantnut_RGinfnutapp": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestlebabyandme.com.mx/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXgoodcrbrd_RGgoodcare": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.goodmom.com.mx/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXtastersacademy_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXdogchow_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/dogchow/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnestlecorpo_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXgoodcrbrd_RGgoodcare.email": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "TEST"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnescafebr_RGbarista": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nescafe.com/mx/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurinaone_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/one/privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnxns_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnestleprofessional_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXboost_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es",
+        "es-mx"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://mx.boost.com/privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "",
+              "documentUrl": "https://mx.boost.com/terminos-y-condiciones-boostr-de-nestler",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://mx.boost.com/terminos-y-condiciones-boostr-de-nestler",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es-mx": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://mx.boost.com/terminos-y-condiciones-boostr-de-nestler",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXjovenes_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es-mx"
+      ],
+      "customData": [
+        {
+          "key": "Document URL",
+          "value": "https://jovenes.nestle.com/mx/aviso-de-privacidad"
+        },
+        {
+          "key": "Document URL",
+          "value": "https://jovenes.nestle.com/mx/terminos-y-condiciones"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es-mx": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Terms and Conditions",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnestlegrp_RGrecetas": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.recetasnestle.com.mx/aviso-de-privacidad "
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXfacebookleads_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurinajebbit_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.MXchocolates_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "es-inf",
+        "en",
+        "es",
+        "es-mx"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "es-inf": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.chocolatesnestle.com.mx/aviso-de-privacidad\">privacidad</a>y <a href=\"https://www.chocolatesnestle.com.mx/conoce-los-terminos-y-condiciones-de-nuestro-sitio\">términos y condiciones.</a>",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.chocolatesnestle.com.mx/aviso-de-privacidad\">privacidad</a>y <a href=\"https://www.chocolatesnestle.com.mx/conoce-los-terminos-y-condiciones-de-nuestro-sitio\">términos y condiciones.</a>",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.chocolatesnestle.com.mx/aviso-de-privacidad\">privacidad</a>y <a href=\"https://www.chocolatesnestle.com.mx/conoce-los-terminos-y-condiciones-de-nuestro-sitio\">términos y condiciones.</a>",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es-mx": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.chocolatesnestle.com.mx/aviso-de-privacidad\">privacidad</a>y <a href=\"https://www.chocolatesnestle.com.mx/conoce-los-terminos-y-condiciones-de-nuestro-sitio\">términos y condiciones.</a>",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXfacebookleads_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXRecetas_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXqualifio_RG18overyear": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXqualifio_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXtasterschoice_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXinfantnut_RGinfantnut": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es",
+        "es-mx"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestlebabyandme.com.mx/aviso-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "He leído y acepto <a href=\"https://www.nestlebabyandme.com.mx/aviso-de-privacidad\" target=\"_blank\">aviso de privacidad</a> y <a href=\"https://www.nestlebabyandme.com.mx/sites/default/files/2022-07/TC%20BabyME%20flash%20junio%202022%20rev%20leco_1.pdf\" target=\"_blank\">Términos y condiciones</a>.",
+              "documentUrl": "https://www.nestlebabyandme.com.mx/aviso-de-privacidad",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "He leído y acepto <a href=\"https://www.nestlebabyandme.com.mx/aviso-de-privacidad\" target=\"_blank\">aviso de privacidad</a> y <a href=\"https://www.nestlebabyandme.com.mx/sites/default/files/2022-07/TC%20BabyME%20flash%20junio%202022%20rev%20leco_1.pdf\" target=\"_blank\">Términos y condiciones</a>.",
+              "documentUrl": "https://www.nestlebabyandme.com.mx/aviso-de-privacidad",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "es-mx": {
+          "publishedDocVersion": 1.2,
+          "currentDocVersion": 1.2,
+          "minDocVersion": 1.2,
+          "versions": {
+            "1.2": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXmedical_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "He leído y acepto <a href=\" https://www.medical.nestlebabyandme.com.mx/aviso-de-privacidad-integral-visita-medica\" target=\"_blank\">aviso de privacidad</a> y <a href=\" https://www.medical.nestlebabyandme.com.mx/terminos-y-condiciones-del-sitio-nestle-baby-me-medical\" target=\"_blank\">Términos y condiciones</a>.",
+              "documentUrl": "https://www.medical.nestlebabyandme.com.mx/aviso-de-privacidad-integral-visita-medica",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXkitkat_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.nestle.com.mx/info/aviso-privacidad\" target=\"_blank\">privacidad</a>.",
+              "documentUrl": "https://www.nestle.com.mx/info/aviso-privacidad",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurinajebbit_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXchocolates_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "He leído y acepto el aviso de <a href=\"https://www.chocolatesnestle.com.mx/aviso-de-privacidad\">privacidad</a>y <a href=\"https://www.chocolatesnestle.com.mx/conoce-los-terminos-y-condiciones-de-nuestro-sitio\">términos y condiciones.</a>",
+              "documentUrl": "https://www.chocolatesnestle.com.mx/aviso-de-privacidad",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXpurinabrd_RGpurina": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://beneficios.purina.com.mx/registro/"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXdogchow_Rgtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/dogchow/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXcereales_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.CCnestlegrp_RGlgotraining8": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestle.com/info/tc"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.MXnhs_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.Mxpurinafelix_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/felix/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.MXjovenes_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXcatchow_Rgtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/catchow/politicas-de-privacidad"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXfancyfeast_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnestlegrp_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.Mxpurina_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.purina-latam.com/mx/purina/politicas-de-privacidad "
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {},
+            "1.1": {
+              "purpose": "<span style=\"font-size: 12px;\">He leído y acepto el <a href=\"https://www.purina-latam.com/mx/purina/politicas-de-privacidad\" target=\"_blank\"><span style=\"\nfont-size: 12px; color:#0066ff\">Aviso de Privacidad.</span></a></span> <span style=\"font-size: 12px;\"> y </span><a href=\"https://www.purina-latam.com/mx/purina/terminos-y-condiciones\" target=\"_blank\"><span style=\"\nfont-size: 12px; color:#0066ff\">Términos y Condiciones.</span></a>",
+              "documentUrl": "https://www.purina-latam.com/mx/purina/politicas-de-privacidad",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXdogchow_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.MXnesltecorpo_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.AENW_RGwaters": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATpurina_RGtcandprivacy": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 6,
+          "currentDocVersion": 6,
+          "minDocVersion": 6,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für das Purina Newsletter-Abo. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten einschließlich der Öffnungs- und Klickraten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "DocumentStoreType": "0"
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen"
+            },
+            "3": {
+              "purpose": "Bitte verwendet meine Daten für den PURINA Newsletter. Ich bin damit einverstanden, dass die Nestlé Familie* meine Daten einschließlich der Öffnungs- und Klickraten zusammen mit den zukünftig von Nestlé Gesellschaften erfassten Daten speichert, auswertet, und in einem Benutzerkonto für alle Nestlé-Webseiten zusammenfasst. \n(*Nestlé Österreich GmbH, Nespresso Österreich GmbH & Co OHG, Nestlé Operational Services Worldwide S.A.)",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen"
+            },
+            "4": {
+              "purpose": "Bitte verwendet meine Daten für den PURINA Newsletter. Ich bin damit einverstanden, dass die Nestlé Familie* meine Daten einschließlich der Öffnungs- und Klickraten zusammen mit den zukünftig von Nestlé Gesellschaften erfassten Daten speichert, auswertet, und in einem Benutzerkonto für alle Nestlé-Webseiten zusammenfasst. <small>(*Nestlé Österreich GmbH, Nespresso Österreich GmbH & Co OHG, Nestlé Operational Services Worldwide S.A.)</small>",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen"
+            },
+            "5": {
+              "purpose": "Bitte verwendet meine Daten für den PURINA Newsletter. Ich bin damit einverstanden, dass die Nestlé Familie* meine Daten einschließlich der Öffnungs- und Klickraten zusammen mit den zukünftig von Nestlé Gesellschaften erfassten Daten speichert, auswertet, und in einem Benutzerkonto für alle Nestlé-Webseiten zusammenfasst. <span style=\"font-size: 10px;\">\n(Nestlé&nbsp;Österreich&nbsp;GmbH,&nbsp;Nespresso&nbsp;Österreich&nbsp;GmbH &amp; Co OHG,&nbsp;Nestlé Operational Services Worldwide S.A.)\n</span>",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen"
+            },
+            "6": {
+              "purpose": "Bitte verwendet meine Daten für den PURINA Newsletter. Ich bin damit einverstanden, dass die Nestlé Familie* meine Daten einschließlich der Öffnungs- und Klickraten zusammen mit den zukünftig von Nestlé Gesellschaften erfassten Daten speichert, auswertet, und in einem Benutzerkonto für alle Nestlé-Webseiten zusammenfasst. <span style=\"font-size: 10px;\"> (*Nestlé&nbsp;Österreich&nbsp;GmbH,&nbsp;Nespresso&nbsp;Österreich&nbsp;GmbH &amp; Co OHG,&nbsp;Nestlé Operational Services Worldwide S.A.) </span>",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Terms and conditions",
+              "DocumentStoreType": "0",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATnhs_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.AToptifibre_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATfelix_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATwobenzym_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATpurinaone_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden."
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATproplankatze_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATadventuros_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATproplanhund_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATdentalife_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATpurinacatanddog_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATbeneful_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "-Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATgourmet_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATsmarties_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Smarties TC"
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATpromotions_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "TC",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATconfectionery_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Confectionary TC",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für dieses Gewinnspiel. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATlion_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für dieses Gewinnspiel. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATkitkat_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Kit Kat TC",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für dieses Gewinnspiel. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATaftereight_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für dieses Gewinnspiel. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden. "
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATqualifio_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATpizzawagner_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATnescafe_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATnescafefarmersorigins_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATcoffee_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATfood_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATculinary_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATthomy_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATstarbucksathome_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATgardengourmet_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATmaggi_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "de": {
+          "publishedDocVersion": 2,
+          "currentDocVersion": 2,
+          "minDocVersion": 2,
+          "versions": {
+            "1": {
+              "purpose": ""
+            },
+            "2": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATstarbuckssignaturechocolate_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATinfant_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATbeba_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATlioncereals_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATnesquikcereals_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATkitkatcereals_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATciniminis_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "Bitte verwendet meine Daten für diesen Service [hier einzutragen Gewinnspiel, Service, Registrierung, etc.]. Ich bin damit einverstanden, dass meine von der Nestlé Österreich GmbH und der Nespresso Österreich GmbH & Co OHG bisher und zukünftig erfassten Daten von diesen und der Nestlé Operational Services Worldwide S.A., Schweiz, zusammen gespeichert, ausgewertet und in einem Benutzerkonto für alle Nestlé -Webseiten zusammengefasst werden.",
+              "documentUrl": "https://www.nestle.at/info/datenschutzbestimmungen",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATcereals_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATlittlesteps_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATnhsc_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "de",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATnescafe_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "de",
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "de": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATfacebookleads_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATfacebookleads_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ATqualifio_RG18overyear": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ATnesquik_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "de"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    }
+  }
+}

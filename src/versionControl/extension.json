@@ -1,0 +1,25 @@
+{
+  "callId": "3c0dfd854c6b4f38a51888c86799cf94",
+  "context": "{\"id\":\"extensions\",\"targetApiKey\":\"4_N0iqyV-a23AASPpPTp4WDg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-04-21T16:00:27.053Z",
+  "result": [
+    {
+      "created": "2024-05-21T09:17:25.0370937Z",
+      "lastModified": "2024-08-06T08:31:35.573066Z",
+      "extensionFuncUrl": "https://webhook.site/2aa569ed-678d-4065-a670-8078250f70b9",
+      "description": "Sample Extention before registration",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "eadd88cb63e6446b83086737ffc31d1b",
+      "extensionPoint": "OnBeforeAccountsRegister",
+      "friendlyName": "Extentions Test",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "errorCode": 0,
+  "recaptchaConfig": [
+    {
+      "Type": 1,
+      "Key": "6Ldqzk4qAAAAAKm0bsyuDftyZzZ6BZfzRmUo8vQk",
+      "Secret": "6Ldqzk4qAAAAAG7krahjcN0gbfo8cXrxDBgJwArk"
+    },
+    {
+      "Type": 5,
+      "Key": "6Ld4gE8qAAAAAG1QEjHHc9gSRVPEnfZnZf242NfM",
+      "Secret": "AIzaSyBno89w3l8YHREhZ-lLkGE6iwSwigt7Rjo",
+      "Data": "{\"ProjectId\":\"nestle-naut-pr-recpatb2c-at-01\"}"
+    },
+    {
+      "Type": 2,
+      "Key": "",
+      "Secret": ""
+    },
+    {
+      "Type": 4,
+      "Key": "",
+      "Secret": ""
+    }
+  ],
+  "securityPolicies": {
+    "accountLockout": {
+      "failedLoginThreshold": 0,
+      "lockoutTimeSec": 300,
+      "failedLoginResetSec": 0
+    },
+    "captcha": {
+      "failedLoginThreshold": 0
+    },
+    "ipLockout": {
+      "hourlyFailedLoginThreshold": 0,
+      "lockoutTimeSec": 0
+    },
+    "passwordChangeInterval": 0,
+    "passwordHistorySize": 0,
+    "riskAssessmentWithReCaptchaV3": true,
+    "riskAssessmentWithTransUnion": false,
+    "sendUnknownLocationNotification": false,
+    "signDeviceId": "js_latest"
+  },
+  "registrationPolicies": {
+    "requireCaptcha": false,
+    "requireSecurityQuestion": false,
+    "requireLoginID": false,
+    "enforceCoppa": false
+  },
+  "riskProvidersConfig": {
+    "subscriberId": null,
+    "account": null,
+    "password": null,
+    "environment": 0,
+    "integrationPoint": null,
+    "data": null
+  }
+}
