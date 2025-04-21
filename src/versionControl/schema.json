@@ -1,11 +1,4 @@
 {
-  "callId": "f7d656a08a054889be4cf0337beb244f",
-  "context": "{\"id\":\"schema\",\"targetApiKey\":\"4_3zsvwuLLkw5lIWpNyFDvug\"}",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-04T14:15:44.109Z",
   "profileSchema": {
     "fields": {
       "education.startYear": {
@@ -771,7 +764,7 @@
         "writeAccess": "serverOnly"
       },
       "activities": {
-        "required": false,
+        "required": true,
         "type": "string",
         "allowNull": true,
         "writeAccess": "serverOnly"
