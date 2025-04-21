@@ -1,13 +1,12 @@
 {
-  "callId": "2ec2d3dc08164f1a8df607380c2b854e",
-  "context": "{\"id\":\"schema\",\"targetApiKey\":\"4_rxUWg27L_PIEl-cg6fH8tw\"}",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-17T11:00:04.370Z",
   "profileSchema": {
     "fields": {
+      "activities": {
+        "required": true,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
       "education.startYear": {
         "required": false,
         "type": "long",
@@ -765,12 +764,6 @@
         "writeAccess": "serverOnly"
       },
       "lastLoginLocation.state": {
-        "required": false,
-        "type": "string",
-        "allowNull": true,
-        "writeAccess": "serverOnly"
-      },
-      "activities": {
         "required": false,
         "type": "string",
         "allowNull": true,
