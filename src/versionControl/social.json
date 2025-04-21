@@ -1,10 +1,4 @@
 {
-  "statusCode": 200,
-  "errorCode": 0,
-  "statusReason": "OK",
-  "callId": "7c0dceb4f6c74fc891b15e7ce53b7afb",
-  "time": "2025-04-04T14:15:44.101Z",
-  "context": "{&quot;id&quot;:&quot;socialIdentities&quot;,&quot;targetApiKey&quot;:&quot;4_3zsvwuLLkw5lIWpNyFDvug&quot;}",
   "capabilities": "none",
   "settings": "disableGooglePlusLoginScope,linkedIn_Oidc",
   "providers": {
@@ -15,7 +9,6 @@
       "settings": {
         "enableNativeSdk": false,
         "canvasURL": "",
-        "version": "",
         "enableWebsite": false,
         "enableRelationships": false,
         "enableReligion": false,
@@ -53,8 +46,7 @@
     },
     "linkedin": {
       "app": {
-        "apiKey": "teste",
-        "secretKey": "teste"
+        "apiKey": ""
       },
       "settings": {
         "useCNAME": false,

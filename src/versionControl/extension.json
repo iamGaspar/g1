@@ -1,15 +1,8 @@
 {
-  "callId": "a5671777cff44ed986adb4f2b3ffa8b5",
-  "context": "{\"id\":\"extensions\",\"targetApiKey\":\"4_3zsvwuLLkw5lIWpNyFDvug\"}",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-04T14:15:44.138Z",
   "result": [
     {
       "created": "2025-02-25T10:35:31.317372Z",
-      "lastModified": "2025-04-04T13:47:02.0423845Z",
+      "lastModified": "2025-04-07T09:01:22.4803406Z",
       "extensionFuncUrl": "https://www.teste.com",
       "description": "",
       "timeout": 1000,
