@@ -878,9 +878,11 @@
       },
       "c_accessB2C.accessGroups": {
         "required": false,
+        "format": "regex('TESTEVC*')",
         "type": "string",
         "allowNull": true,
         "writeAccess": "clientModify",
+        "encrypt": "AES",
         "subType": "none"
       },
       "c_profession.professionTypeCode": {
