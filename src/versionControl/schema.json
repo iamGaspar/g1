@@ -765,6 +765,7 @@
       },
       "activities": {
         "required": false,
+        "format": "regex('maijum')",
         "type": "string",
         "allowNull": true,
         "writeAccess": "serverOnly"

@@ -16,8 +16,7 @@
       ],
       "version": "3.0",
       "product": "UserManagement",
-      "id": "80c14f78-9d7b-41da-b2a9-bce11f288cfe",
-      "include": [],
+      "id": "43b8215a-0ed5-4aae-819d-ac2164e94336",
       "urlType": "Http"
     },
     {
@@ -36,8 +35,7 @@
       ],
       "version": "3.0",
       "product": "UserManagement",
-      "id": "a1ab4685-1e40-424a-89ad-e5bb842159d3",
-      "include": [],
+      "id": "253bdeb2-c227-4da5-9e7b-c8503b85f32e",
       "urlType": "Http"
     }
   ]
