@@ -876,6 +876,14 @@
         "encrypt": "AES",
         "subType": "none"
       },
+      "maijum": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
       "c_accessB2C.accessGroups": {
         "required": false,
         "type": "string",
@@ -918,14 +926,6 @@
         "allowNull": true,
         "writeAccess": "clientModify",
         "encrypt": "AES",
-        "subType": "none"
-      },
-      "maisUmVc": {
-        "required": false,
-        "type": "string",
-        "allowNull": false,
-        "writeAccess": "clientCreate",
-        "tags": [],
         "subType": "none"
       },
       "marketCode": {
@@ -1541,6 +1541,327 @@
               "encrypt": "AES"
             },
             "building": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            }
+          }
+        }
+      },
+      "Maijoutro": {
+        "id": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "state": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "city": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "houseNumber": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "districtName": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "building": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "entrance": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "floor": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "streetPrefix": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "countryISOCode3": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "postOfficeBox": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "neighborhood": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "street": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "zipCode": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "houseNumberSupplement": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "regionCode": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "apartment": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "streetSuffix": {
+          "type": "string",
+          "required": false,
+          "writeAccess": "clientModify",
+          "allowNull": true,
+          "format": null,
+          "encrypt": "AES"
+        },
+        "contactDetails": {
+          "phoneNumber": {
+            "type": "string",
+            "required": false,
+            "writeAccess": "clientModify",
+            "allowNull": true,
+            "format": null,
+            "encrypt": "AES",
+            "subType": "phone"
+          },
+          "lastName": {
+            "type": "string",
+            "required": false,
+            "writeAccess": "clientModify",
+            "allowNull": true,
+            "format": null,
+            "encrypt": "AES"
+          },
+          "firstName": {
+            "type": "string",
+            "required": false,
+            "writeAccess": "clientModify",
+            "allowNull": true,
+            "format": null,
+            "encrypt": "AES"
+          }
+        },
+        "metadata": {
+          "selectedSuggestion": {
+            "type": "string",
+            "required": false,
+            "writeAccess": "serverOnly",
+            "allowNull": true,
+            "format": null,
+            "encrypt": "AES"
+          },
+          "verifiedAddress": {
+            "postOfficeBox": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "apartment": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "zipCode": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "districtName": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "streetPrefix": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "street": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "city": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "streetSuffix": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "state": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "countryISOCode3": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "building": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "houseNumberSupplement": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "neighborhood": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "entrance": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "regionCode": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "clientModify",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "floor": {
+              "type": "string",
+              "required": false,
+              "writeAccess": "serverOnly",
+              "allowNull": true,
+              "format": null,
+              "encrypt": "AES"
+            },
+            "houseNumber": {
               "type": "string",
               "required": false,
               "writeAccess": "serverOnly",
