@@ -9,7 +9,7 @@
   "description": "NA6",
   "captchaProvider": "Google",
   "settings": {
-    "CNAME": "testeCNAME",
+    "CNAME": "naoexiste",
     "shortURLDomain": "",
     "shortURLRedirMethod": "js",
     "encryptPII": true
