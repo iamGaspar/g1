@@ -37,7 +37,7 @@
     "passwordChangeInterval": 0,
     "passwordHistorySize": 0,
     "riskAssessmentWithReCaptchaV3": false,
-    "riskAssessmentWithTransUnion": true,
+    "riskAssessmentWithTransUnion": false,
     "sendUnknownLocationNotification": false,
     "signDeviceId": "js_latest"
   },
@@ -45,7 +45,7 @@
     "requireCaptcha": false,
     "requireSecurityQuestion": false,
     "requireLoginID": false,
-    "enforceCoppa": true
+    "enforceCoppa": false
   },
   "riskProvidersConfig": {
     "subscriberId": "teste",

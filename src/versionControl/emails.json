@@ -17,9 +17,9 @@
   "emailVerification": {
     "defaultLanguage": "en",
     "emailTemplates": {
-      "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n\t\t<META name=\"subject\" content=\"Account Activation\" />\n    </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\n\t\t            <p>Hello is it me you're looking for? <b>$firstName $lastName</b>,</p>\n\t\t            <p>Please click this link to activate your account:</p>\n                    <p><a href=\"$emailVerificationLink\">Activate link</a></p>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n\n\n"
+      "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n\t\t<META name=\"subject\" content=\"Account Activation\" />\n    </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\n\t\t            <p>Hello <b>$firstName $lastName</b>,</p>\n\t\t            <p>Please click this link to activate your account:</p>\n                    <p><a href=\"$emailVerificationLink\">Activate link</a></p>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n\n\n"
     },
-    "verificationEmailExpiration": 86400,
+    "verificationEmailExpiration": 3600,
     "autoLogin": false
   },
   "emailNotifications": {
@@ -47,7 +47,7 @@
     "defaultLanguage": "en",
     "emailTemplates": {
       "zh-hk": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n        <head>\n    <META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n    <META name=\"subject\" content=\"Preferences center invitation\" />\n  </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n      <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n        <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n          <div style=\"padding:30px 30px 29px;margin: 0 auto;\">\n            <p>Hello <b>$firstName $lastName</b></p>\n            <p>Please click this link to enter your Preference Center:</p>\n            <p><a href=\"$link\">Edit my preferences</a></p>\n          </div>\n        </div>\n      </div>\n    </body>\n  </html>",
-      "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n\t\t<META name=\"subject\" content=\"Preferences center invitation\" />\n    </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\n\t\t            <p>Hello <b>$firstName $lastName</b>,</p>\n\t\t            <p>Please click this link to enter your Preference Center:</p>\n                    <p><a href=\"$link\">Edit my preferences</a></p>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n\n\n"
+      "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n    <head>\r\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\r\n\t\t<META name=\"subject\" content=\"Preferences center invitation\" />\r\n    </head>\r\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\r\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\r\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\r\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\r\n\t\t            <p>Hello <b>$firstName $lastName</b>,</p>\r\n\t\t            <p>Please click this link to enter your Preference Center:</p>\r\n                    <p><a href=\"$link\">Edit my preferences</a></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </body>\r\n</html>\r\n\r\n\r\n"
     },
     "linkPlaceHolder": "$link"
   },
@@ -165,6 +165,21 @@
       {
         "name": "gigyaPhone",
         "enabled": true
+      },
+      {
+        "name": "gigyaEmail",
+        "enabled": false
+      },
+      {
+        "name": "gigyaTotp",
+        "enabled": false
+      },
+      {
+        "name": "gigyaPush",
+        "enabled": false,
+        "params": {
+          "defaultRuleset": "_off"
+        }
       }
     ],
     "emailProvider": {
