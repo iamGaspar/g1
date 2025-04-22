@@ -878,7 +878,7 @@
       },
       "c_accessB2C.accessGroups": {
         "required": false,
-        "format": "regex('TESTEVC*')",
+        "format": "regex('testeVC2NEW')",
         "type": "string",
         "allowNull": true,
         "writeAccess": "clientModify",
