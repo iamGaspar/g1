@@ -920,6 +920,14 @@
         "encrypt": "AES",
         "subType": "none"
       },
+      "maisUmVc": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientCreate",
+        "tags": [],
+        "subType": "none"
+      },
       "marketCode": {
         "required": false,
         "type": "string",

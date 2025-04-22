@@ -46,6 +46,5 @@
     "Secret": ""
   },
   "customAPIDomainPrefix": "",
-  "jwtKeyVersion": 2,
   "enableHSTS": false
 }
