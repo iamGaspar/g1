@@ -148,6 +148,42 @@
           }
         }
       }
+    },
+    "terms.testvazio_2": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "pt",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "pt": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://public-resource.digitalidentity.roche.com/policies/termsOfservice/PT/pt/Roche Digital Identity - Terms of Service PT_pt_1.1.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.test": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
     }
   }
 }
