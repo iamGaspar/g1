@@ -1,0 +1,235 @@
+{
+  "preferences": {
+    "terms.teste": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "alterado propósito do term",
+              "documentUrl": "www.gooogle.com",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "privacy.testes": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "bg"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "bg": {
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "www.gooogle.pt",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    },
+    "terms.my.consent": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "il",
+        "NewOne"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "privacy.my.consent": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "il",
+        "MyspecialLang"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "il": {
+          "publishedDocVersion": 0,
+          "currentDocVersion": 0,
+          "minDocVersion": 0,
+          "versions": {
+            "0": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "MyspecialLang": {
+          "publishedDocVersion": 0,
+          "currentDocVersion": 0,
+          "minDocVersion": 0,
+          "versions": {
+            "0": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "privacy.test": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.test_Terms": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "bg",
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "bg": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "documentUrl": "https://public-resource.dev.digitalidentity.roche.com/policies/termsOfservice/UY/es/Roche%20Digital%20Identity%20-%20Terms%20of%20Service%20UY_es_1.0.pdf",
+              "DocumentStoreType": "1",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        },
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "documentUrl": "https://public-resource.dev.digitalidentity.roche.com/policies/termsOfservice/UY/es/Roche%20Digital%20Identity%20-%20Terms%20of%20Service%20UY_es_1.0.pdf",
+              "DocumentStoreType": "1",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.testvazio_2": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "pt",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "pt": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://public-resource.digitalidentity.roche.com/policies/termsOfservice/PT/pt/Roche Digital Identity - Terms of Service PT_pt_1.1.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.terms_test": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "ca"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "ca": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://public-resource.dev.digitalidentity.roche.com/policies/termsOfservice/UY/es/Roche%20Digital%20Identity%20-%20Terms%20of%20Service%20UY_es_1.0.pdf"
+            },
+            "1.1": {
+              "purpose": "",
+              "documentUrl": "https://public-resource.test.digitalidentity.roche.com/policies/termsOfservice/UY/es/Roche%20Digital%20Identity%20-%20Terms%20of%20Service%20UY_es_1.0.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.teste_vazio": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "pt"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "pt": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://public-resource.digitalidentity.roche.com/policies/privacyPolicy/PT/pt/Roche Digital Identity - Privacy Policy PT_pt_1.0.pdf"
+            },
+            "1.1": {
+              "purpose": "something here now",
+              "documentUrl": "https://public-resource.digitalidentity.roche.com/policies/privacyPolicy/PT/pt/Roche Digital Identity - Privacy Policy PT_pt_1.0.pdf",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.testvazio_3": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "pt",
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    }
+  }
+}

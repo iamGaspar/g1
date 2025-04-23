@@ -1,0 +1,49 @@
+{
+  "baseDomain": "dev.eu.parent.test.gaspar",
+  "dataCenter": "eu1",
+  "trustedSiteURLs": [
+    "*console.gigya.com",
+    "dev.eu.parent.test.gaspar/*",
+    "*.dev.eu.parent.test.gaspar/*"
+  ],
+  "tags": [],
+  "description": "4_gbPuSH99apUJiR0PdiNmRQ",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "members": [
+      "4_bXyywhpdXNcKVL6V4ypvNA"
+    ],
+    "enableSSO": false
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "globalConf": "\r\n{\r\n    //teste cname Ref 1 comits list of provider names to enable.\r\n    enabledProviders: '*',\r\n\r\n    // Define the language of Gigya's user interface and error message.\r\n    lang: 'en',\r\n\r\n    // Bind globally to events.\r\n    customEventMap: {\r\n        eventMap: [{\r\n            events: '*',\r\n            args: [function(e) {\r\n                return e;\r\n            }],\r\n            method: function(e) {\r\n                if (e.fullEventName === 'login') {\r\n                    // Handle login event here.\r\n                } else if (e.fullEventName === 'logout') {\r\n                    // Handle logout event here.\r\n                }\r\n            }\r\n        }]\r\n    }\r\n}",
+  "invisibleRecaptcha": {
+    "SiteKey": "teste",
+    "Secret": "teste"
+  },
+  "recaptchaV2": {
+    "SiteKey": "teste",
+    "Secret": "teste"
+  },
+  "funCaptcha": {
+    "SiteKey": "",
+    "Secret": ""
+  },
+  "customAPIDomainPrefix": "",
+  "enableHSTS": false
+}
