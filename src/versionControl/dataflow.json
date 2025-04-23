@@ -32,82 +32,6 @@
     {
       "apiKey": "4_hP01HHSoSx6xjto_LT9xgQ",
       "siteId": 501593722905,
-      "id": "634546d511424a859e0a1ff23a4a13cd",
-      "name": "Count logins - using get and set session parameters",
-      "status": "draft",
-      "description": "Get count of logins performed by user, using audit.search API. Add the apiKey, userKey and secret in the first step.",
-      "steps": [
-        {
-          "id": "2. logic to get the count",
-          "type": "record.evaluate",
-          "params": {
-            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgLy93aGVuIGlzIHRoZSBsYXN0IHJlY29yZCBmcm9tIHRoZSBhdWRpdC5zZWFyY2gsIGl0IHdpbGwgcmV0dXJuIG51bGwgKG5vdGlmeUxhc3RSZWNvcmQgPSB0cnVlKQ0KICAgIC8vaWYgaXMgdGhlIGxhc3QgcmVjb3JkLCByZXR1cm4gdGhlIGNvdW50IG9mIGFjY291bnQgbG9naW5zIGZyb20gdGhlIHNlc3Npb24gcGFyYW1ldGVyDQogICAgaWYocmVjb3JkPT09bnVsbCl7DQogICAgICAgIHJldHVybiBjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIik7DQogICAgfQ0KICAgIC8vaWYgdGhlcmUgaXMgbm8gYXJyYXkgaW4gdGhlIHNlc3Npb24sIGNyZWF0ZSBzZXNzaW9uIHBhcmFtZXRlciB3aXRoIGFuIGFycmF5LCBhZGRpbmcgdGhlIGZpcnN0IFVJRA0KICAgIGlmKCFjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIikpDQogICAgeyAgIA0KICAgICAgICBsZXQgYWNjb3VudExvZ2luID0gW107DQogICAgICAgIGxldCBvYmogPSB7fTsNCiAgICAgICAgb2JqLlVJRCA9IHJlY29yZC51aWQ7DQogICAgICAgIG9iai5jb3VudExvZ2luID0gMTsNCiAgICAgICAgYWNjb3VudExvZ2luLnB1c2gob2JqKTsNCiAgICAgICAgY3R4LnNldFNlc3Npb25QYXJhbWV0ZXIoImFjY291bnRMb2dpbiIsYWNjb3VudExvZ2luKTsNCiAgICB9DQogICAgLy9pZiBhcnJheSBpcyBhbHJlYWR5IGluIHNlc3Npb24sIHJldHVybiBhcnJheQ0KICAgIGVsc2UNCiAgICB7DQogICAgICAgIHJlY29yZC5hY2NvdW50TG9naW4gPSBjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIik7DQogICAgICAgIGxldCBpbmRleCA9ICByZWNvcmQuYWNjb3VudExvZ2luLmZpbmRJbmRleCh4ID0+IHguVUlEID09PSByZWNvcmQudWlkKTsNCiAgICAgICAgLy9pZiBVSUQgYWxyZWFkeSBleGlzdHMgaW4gdGhlIGFycmF5LCBpbmNyZXNlIHRoZSBjb3VudExvZ2luDQogICAgICAgIGlmKGluZGV4ICE9PSAtMSl7DQogICAgICAgICAgICByZWNvcmQuYWNjb3VudExvZ2luW2luZGV4XS5jb3VudExvZ2luKys7DQogICAgICAgICAgICBjdHguc2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIiwgcmVjb3JkLmFjY291bnRMb2dpbik7DQogICAgICAgIH0NCiAgICAgICAgLy9pZiBVSUQgZG9lc24ndCBleGlzdCBpbiB0aGUgYXJyYXksIGFkZCBhIG5ldyBlbnRyeSBpbiB0aGUgYXJyYXkNCiAgICAgICAgZWxzZXsNCiAgICAgICAgICAgIGxldCBvYmogPSB7fTsNCiAgICAgICAgICAgIG9iai5VSUQgPSByZWNvcmQudWlkOw0KICAgICAgICAgICAgb2JqLmNvdW50TG9naW4gPSAxOw0KICAgICAgICAgICAgbGV0IGF1eEFyciA9IFtdOw0KICAgICAgICAgICAgbGV0IHJlY0FyciA9ICByZWNvcmQuYWNjb3VudExvZ2luOw0KICAgICAgICAgICAgZm9yIChsZXQgaT0wOyBpPCByZWNBcnIubGVuZ3RoOyBpKyspew0KICAgICAgICAgICAgICAgIGF1eEFyci5wdXNoKHJlY0FycltpXSk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBhdXhBcnIucHVzaChvYmopOw0KICAgICAgICAgICAgY3R4LnNldFNlc3Npb25QYXJhbWV0ZXIoImFjY291bnRMb2dpbiIsIGF1eEFycik7DQogICAgICAgIH0NCiAgICB9DQogICAgZGVsZXRlIHJlY29yZC51aWQ7DQogICAgDQp9",
-            "ECMAScriptVersion": "12",
-            "notifyLastRecord": true
-          },
-          "next": [
-            "3. file.format.json"
-          ]
-        },
-        {
-          "id": "4. amazon.s3",
-          "type": "datasource.write.amazon.s3",
-          "params": {
-            "bucketName": "gigya-etl-eu",
-            "accessKey": "AKIAJYPKIUMOHZOH4QZA",
-            "secretKey": "********",
-            "region": "not specified",
-            "objectKeyPrefix": "0781392d-b08f-4ee0-8e40-ef926698c00b/it/MSCND-7958/"
-          }
-        },
-        {
-          "id": "0. gigya.audit",
-          "type": "datasource.read.gigya.audit",
-          "params": {
-            "select": "*",
-            "deltaField": "@timestamp",
-            "from": "audit",
-            "where": "errCode = \"0\" AND (endpoint in (\"accounts.login\", \"accounts.notifyLogin\", \"fidm.saml.sp.acs\", \"otp.login\"))",
-            "keepFieldNamesWithDotAsIs": false
-          },
-          "next": [
-            "1. field.select"
-          ]
-        },
-        {
-          "id": "1. field.select",
-          "type": "field.select",
-          "params": {
-            "fields": [
-              "uid"
-            ]
-          },
-          "next": [
-            "2. logic to get the count"
-          ]
-        },
-        {
-          "id": "3. file.format.json",
-          "type": "file.format.json",
-          "params": {
-            "fileName": "IT_dolceGustoPromozioni_countAccountLogin_${now}.json",
-            "maxFileSize": 5000,
-            "createEmptyFile": false
-          },
-          "next": [
-            "4. amazon.s3"
-          ]
-        }
-      ],
-      "version": 1,
-      "createTime": "2025-04-22T10:52:55.732Z",
-      "updateTime": "2025-04-22T10:52:55.732Z",
-      "updatedByName": "Tiago Gaspar",
-      "updatedByEmail": "tiago.gaspar@sap.com"
-    },
-    {
-      "apiKey": "4_hP01HHSoSx6xjto_LT9xgQ",
-      "siteId": 501593722905,
       "id": "1d691f522d6d4520ace4ecfb3695a83a",
       "name": "Dataflow to get accounts with wrong data structure",
       "status": "draft",
@@ -261,6 +185,82 @@
       "version": 1,
       "createTime": "2025-04-22T10:52:55.659Z",
       "updateTime": "2025-04-22T10:52:55.659Z",
+      "updatedByName": "Tiago Gaspar",
+      "updatedByEmail": "tiago.gaspar@sap.com"
+    },
+    {
+      "apiKey": "4_hP01HHSoSx6xjto_LT9xgQ",
+      "siteId": 501593722905,
+      "id": "634546d511424a859e0a1ff23a4a13cd",
+      "name": "Count logins - using get and set session parameters",
+      "status": "draft",
+      "description": "Get count of logins performed by user, using audit.search API. Add the apiKey, userKey and secret in the first step.",
+      "steps": [
+        {
+          "id": "2. logic to get the count",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgLy93aGVuIGlzIHRoZSBsYXN0IHJlY29yZCBmcm9tIHRoZSBhdWRpdC5zZWFyY2gsIGl0IHdpbGwgcmV0dXJuIG51bGwgKG5vdGlmeUxhc3RSZWNvcmQgPSB0cnVlKQ0KICAgIC8vaWYgaXMgdGhlIGxhc3QgcmVjb3JkLCByZXR1cm4gdGhlIGNvdW50IG9mIGFjY291bnQgbG9naW5zIGZyb20gdGhlIHNlc3Npb24gcGFyYW1ldGVyDQogICAgaWYocmVjb3JkPT09bnVsbCl7DQogICAgICAgIHJldHVybiBjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIik7DQogICAgfQ0KICAgIC8vaWYgdGhlcmUgaXMgbm8gYXJyYXkgaW4gdGhlIHNlc3Npb24sIGNyZWF0ZSBzZXNzaW9uIHBhcmFtZXRlciB3aXRoIGFuIGFycmF5LCBhZGRpbmcgdGhlIGZpcnN0IFVJRA0KICAgIGlmKCFjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIikpDQogICAgeyAgIA0KICAgICAgICBsZXQgYWNjb3VudExvZ2luID0gW107DQogICAgICAgIGxldCBvYmogPSB7fTsNCiAgICAgICAgb2JqLlVJRCA9IHJlY29yZC51aWQ7DQogICAgICAgIG9iai5jb3VudExvZ2luID0gMTsNCiAgICAgICAgYWNjb3VudExvZ2luLnB1c2gob2JqKTsNCiAgICAgICAgY3R4LnNldFNlc3Npb25QYXJhbWV0ZXIoImFjY291bnRMb2dpbiIsYWNjb3VudExvZ2luKTsNCiAgICB9DQogICAgLy9pZiBhcnJheSBpcyBhbHJlYWR5IGluIHNlc3Npb24sIHJldHVybiBhcnJheQ0KICAgIGVsc2UNCiAgICB7DQogICAgICAgIHJlY29yZC5hY2NvdW50TG9naW4gPSBjdHguZ2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIik7DQogICAgICAgIGxldCBpbmRleCA9ICByZWNvcmQuYWNjb3VudExvZ2luLmZpbmRJbmRleCh4ID0+IHguVUlEID09PSByZWNvcmQudWlkKTsNCiAgICAgICAgLy9pZiBVSUQgYWxyZWFkeSBleGlzdHMgaW4gdGhlIGFycmF5LCBpbmNyZXNlIHRoZSBjb3VudExvZ2luDQogICAgICAgIGlmKGluZGV4ICE9PSAtMSl7DQogICAgICAgICAgICByZWNvcmQuYWNjb3VudExvZ2luW2luZGV4XS5jb3VudExvZ2luKys7DQogICAgICAgICAgICBjdHguc2V0U2Vzc2lvblBhcmFtZXRlcigiYWNjb3VudExvZ2luIiwgcmVjb3JkLmFjY291bnRMb2dpbik7DQogICAgICAgIH0NCiAgICAgICAgLy9pZiBVSUQgZG9lc24ndCBleGlzdCBpbiB0aGUgYXJyYXksIGFkZCBhIG5ldyBlbnRyeSBpbiB0aGUgYXJyYXkNCiAgICAgICAgZWxzZXsNCiAgICAgICAgICAgIGxldCBvYmogPSB7fTsNCiAgICAgICAgICAgIG9iai5VSUQgPSByZWNvcmQudWlkOw0KICAgICAgICAgICAgb2JqLmNvdW50TG9naW4gPSAxOw0KICAgICAgICAgICAgbGV0IGF1eEFyciA9IFtdOw0KICAgICAgICAgICAgbGV0IHJlY0FyciA9ICByZWNvcmQuYWNjb3VudExvZ2luOw0KICAgICAgICAgICAgZm9yIChsZXQgaT0wOyBpPCByZWNBcnIubGVuZ3RoOyBpKyspew0KICAgICAgICAgICAgICAgIGF1eEFyci5wdXNoKHJlY0FycltpXSk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBhdXhBcnIucHVzaChvYmopOw0KICAgICAgICAgICAgY3R4LnNldFNlc3Npb25QYXJhbWV0ZXIoImFjY291bnRMb2dpbiIsIGF1eEFycik7DQogICAgICAgIH0NCiAgICB9DQogICAgZGVsZXRlIHJlY29yZC51aWQ7DQogICAgDQp9",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": true
+          },
+          "next": [
+            "3. file.format.json"
+          ]
+        },
+        {
+          "id": "4. amazon.s3",
+          "type": "datasource.write.amazon.s3",
+          "params": {
+            "bucketName": "gigya-etl-eu",
+            "accessKey": "AKIAJYPKIUMOHZOH4QZA",
+            "secretKey": "********",
+            "region": "not specified",
+            "objectKeyPrefix": "0781392d-b08f-4ee0-8e40-ef926698c00b/it/MSCND-7958/"
+          }
+        },
+        {
+          "id": "0. gigya.audit",
+          "type": "datasource.read.gigya.audit",
+          "params": {
+            "select": "*",
+            "deltaField": "@timestamp",
+            "from": "audit",
+            "where": "errCode = \"0\" AND (endpoint in (\"accounts.login\", \"accounts.notifyLogin\", \"fidm.saml.sp.acs\", \"otp.login\"))",
+            "keepFieldNamesWithDotAsIs": false
+          },
+          "next": [
+            "1. field.select"
+          ]
+        },
+        {
+          "id": "1. field.select",
+          "type": "field.select",
+          "params": {
+            "fields": [
+              "uid"
+            ]
+          },
+          "next": [
+            "2. logic to get the count"
+          ]
+        },
+        {
+          "id": "3. file.format.json",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "IT_dolceGustoPromozioni_countAccountLogin_${now}.json",
+            "maxFileSize": 5000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "4. amazon.s3"
+          ]
+        }
+      ],
+      "version": 1,
+      "createTime": "2025-04-22T10:52:55.732Z",
+      "updateTime": "2025-04-22T10:52:55.732Z",
       "updatedByName": "Tiago Gaspar",
       "updatedByEmail": "tiago.gaspar@sap.com"
     }

@@ -13,6 +13,20 @@
       "extensionPoint": "OnBeforeAccountsRegister",
       "friendlyName": "TestBlockSocialLoginAfterRegistration",
       "enabled": true
+    },
+    {
+      "created": "2025-04-23T11:03:36.9138725Z",
+      "lastModified": "2025-04-23T11:03:45.6277379Z",
+      "extensionFuncUrl": "https://www.testevc.org",
+      "description": "",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "a7f1aab0754e4bd69318cd36b5cf8a06",
+      "extensionPoint": "OnBeforeAccountsLogin",
+      "friendlyName": "testevc2",
+      "enabled": true
     }
   ]
 }
