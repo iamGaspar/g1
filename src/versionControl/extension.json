@@ -2,7 +2,7 @@
   "result": [
     {
       "created": "2025-04-22T10:52:55.6688474Z",
-      "lastModified": "2025-04-22T10:52:05.9510332Z",
+      "lastModified": "2025-04-23T11:10:48.9257133Z",
       "extensionFuncUrl": "https://b75a-2001-8a0-6f04-7100-f857-e539-4af4-e8b0.ngrok-free.app",
       "description": "Avoid Automatic login after Social Registration",
       "timeout": 1000,
@@ -15,18 +15,18 @@
       "enabled": true
     },
     {
-      "created": "2025-04-23T11:03:36.9138725Z",
-      "lastModified": "2025-04-23T11:03:45.6277379Z",
-      "extensionFuncUrl": "https://www.testevc.org",
+      "created": "2025-04-23T11:16:20.5757078Z",
+      "lastModified": "2025-04-23T11:16:20.8274976Z",
+      "extensionFuncUrl": "https://xpto.hu",
       "description": "",
       "timeout": 1000,
       "fallback": "IgnoreAllErrors",
       "headers": [],
       "integration": "Generic",
-      "id": "a7f1aab0754e4bd69318cd36b5cf8a06",
-      "extensionPoint": "OnBeforeAccountsLogin",
-      "friendlyName": "testevc2",
-      "enabled": true
+      "id": "70d977ba6da84454a2c12a13f64be859",
+      "extensionPoint": "OnBeforeResetPassword",
+      "friendlyName": "testevc3",
+      "enabled": false
     }
   ]
 }
