@@ -1,31 +1,17 @@
 {
   "result": [
     {
-      "created": "2025-04-22T10:52:55.6688474Z",
-      "lastModified": "2025-04-23T11:10:48.9257133Z",
-      "extensionFuncUrl": "https://b75a-2001-8a0-6f04-7100-f857-e539-4af4-e8b0.ngrok-free.app",
-      "description": "Avoid Automatic login after Social Registration",
-      "timeout": 1000,
-      "fallback": "IgnoreAllErrors",
-      "headers": [],
-      "integration": "Generic",
-      "id": "19482979f4ed4ef5a34ffc2512658733",
-      "extensionPoint": "OnBeforeAccountsRegister",
-      "friendlyName": "TestBlockSocialLoginAfterRegistration",
-      "enabled": true
-    },
-    {
-      "created": "2025-04-23T11:16:20.5757078Z",
-      "lastModified": "2025-04-23T11:16:20.8274976Z",
-      "extensionFuncUrl": "https://xpto.hu",
+      "created": "2025-04-23T13:32:54.2671422Z",
+      "lastModified": "2025-04-23T13:34:07.3801796Z",
+      "extensionFuncUrl": "https://www.googo.org",
       "description": "",
       "timeout": 1000,
       "fallback": "IgnoreAllErrors",
       "headers": [],
       "integration": "Generic",
-      "id": "70d977ba6da84454a2c12a13f64be859",
-      "extensionPoint": "OnBeforeResetPassword",
-      "friendlyName": "testevc3",
+      "id": "c31984718fca4602b2ba4530d0424213",
+      "extensionPoint": "OnBeforeAccountsRegister",
+      "friendlyName": "ykxcc",
       "enabled": false
     }
   ]
