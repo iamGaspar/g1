@@ -1,11 +1,4 @@
 {
-  "callId": "598e566af2d94f83b39782cdaebf8c19",
-  "context": "{\"id\":\"dataflows_search\",\"targetApiKey\":\"4_3zsvwuLLkw5lIWpNyFDvug\"}",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-04T14:15:44.069Z",
   "resultCount": 3,
   "result": [
     {
@@ -95,7 +88,6 @@
           }
         }
       ],
-      "version": 1,
       "createTime": "2025-01-09T10:01:54.788Z",
       "updateTime": "2025-01-09T10:01:54.788Z",
       "updatedByName": "Tiago Gaspar",
@@ -161,7 +153,6 @@
           }
         }
       ],
-      "version": 1,
       "createTime": "2025-01-09T10:01:54.923Z",
       "updateTime": "2025-01-09T10:01:54.923Z",
       "updatedByName": "Tiago Gaspar",
@@ -237,7 +228,6 @@
           ]
         }
       ],
-      "version": 1,
       "createTime": "2025-01-09T10:01:54.689Z",
       "updateTime": "2025-01-09T10:01:54.689Z",
       "updatedByName": "Tiago Gaspar",

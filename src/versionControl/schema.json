@@ -764,7 +764,7 @@
         "writeAccess": "serverOnly"
       },
       "activities": {
-        "required": true,
+        "required": false,
         "type": "string",
         "allowNull": true,
         "writeAccess": "serverOnly"

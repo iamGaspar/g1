@@ -175,10 +175,5 @@
       "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n\t\t<META name=\"subject\" content=\"Account Verification\" />\n    </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\n\t\t            <p>Hello,</p>\n\t\t            <p>Your code is : $code </p>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n\n\n",
       "hr": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n     <META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n     <META name=\"subject\" content=\"Account verification\" />\n    </head>\n      <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n          <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n            <div style=\"padding:30px 30px 29px;margin: 0 auto;\">\n              <p>Hello </p>\n              <p>Please use the following code to verify your account : $code </p>\n            </div>\n          </div>\n        </div>\n      </body>\n </html>\n  "
     }
-  },
-  "statusCode": 200,
-  "errorCode": 0,
-  "statusReason": "OK",
-  "callId": "7840442ca57647f8a11d9eb79e26815a",
-  "time": "2025-04-04T14:15:44.086Z"
+  }
 }

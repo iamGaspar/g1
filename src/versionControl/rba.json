@@ -1,12 +1,5 @@
 [
   {
-    "callId": "637ecbf0497a45d1af61bb7185d1f532",
-    "context": "{\"id\":\"rba.riskAssessment\",\"targetApiKey\":\"4_3zsvwuLLkw5lIWpNyFDvug\"}",
-    "errorCode": 0,
-    "apiVersion": 2,
-    "statusCode": 200,
-    "statusReason": "OK",
-    "time": "2025-04-04T14:15:44.109Z",
     "Enabled": false
   },
   {
@@ -186,12 +179,7 @@
         "en": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n\t\t<META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n\t\t<META name=\"subject\" content=\"Account Verification\" />\n    </head>\n    <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n            <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n                <div style=\"padding:30px 30px 29px;margin: 0px auto;\">\n\t\t            <p>Hello,</p>\n\t\t            <p>Your code is : $code </p>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n\n\n",
         "hr": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n    <head>\n     <META name=\"from\"    content=\"Name <noreply@YOUR-SITE.com>\" />\n     <META name=\"subject\" content=\"Account verification\" />\n    </head>\n      <body style=\"font-family: Arial; font-size: 13px; line-height: 16px;\">\n        <div style=\"background: url('https://cdns.gigya.com/site/images/email/background.png') repeat-x; width: 720px; padding:13px 0; margin:0 auto;\">\n          <div style=\"background: #fff; border-radius: 3px; margin: 0 auto; width: 693px; \">\n            <div style=\"padding:30px 30px 29px;margin: 0 auto;\">\n              <p>Hello </p>\n              <p>Please use the following code to verify your account : $code </p>\n            </div>\n          </div>\n        </div>\n      </body>\n </html>\n  "
       }
-    },
-    "statusCode": 200,
-    "errorCode": 0,
-    "statusReason": "OK",
-    "callId": "7266d021e90743c3b3a4b5302dc582cc",
-    "time": "2025-04-04T14:15:44.090Z"
+    }
   },
   {
     "policy": {
@@ -207,12 +195,6 @@
       "tfaRegistrationScope": false,
       "defaultPolicy": "_off",
       "allowOverrideMode": "no"
-    },
-    "statusCode": 200,
-    "errorCode": 0,
-    "statusReason": "OK",
-    "callId": "ddb9b391dc864e4c9d6e0ad0b9145c64",
-    "time": "2025-04-04T14:15:44.085Z",
-    "context": "{&quot;id&quot;:&quot;rba.policy&quot;,&quot;targetApiKey&quot;:&quot;4_3zsvwuLLkw5lIWpNyFDvug&quot;}"
+    }
   }
 ]

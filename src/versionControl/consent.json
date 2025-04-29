@@ -1,11 +1,4 @@
 {
-  "callId": "1881ebd630e44d7c8b60abf1c5743604",
-  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_3zsvwuLLkw5lIWpNyFDvug\"}",
-  "errorCode": 0,
-  "apiVersion": 2,
-  "statusCode": 200,
-  "statusReason": "OK",
-  "time": "2025-04-04T14:15:44.101Z",
   "preferences": {
     "terms.teste": {
       "isActive": false,
