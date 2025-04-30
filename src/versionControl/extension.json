@@ -1,16 +1,29 @@
 {
   "result": [
     {
-      "created": "2025-02-25T10:35:31.317372Z",
-      "extensionFuncUrl": "https://www.teste.com",
+      "created": "2025-04-29T10:24:51.3519067Z",
+      "extensionFuncUrl": "https://www.google.xpto.com",
       "description": "",
       "timeout": 1000,
       "fallback": "IgnoreAllErrors",
       "headers": [],
       "integration": "Generic",
-      "id": "4f2781ade4d641299fd0293b1837c4d2",
+      "id": "669b23b75c594b5e90b9c6bed46d0cd5",
       "extensionPoint": "OnBeforeAccountsRegister",
       "friendlyName": "teste",
+      "enabled": false
+    },
+    {
+      "created": "2025-04-29T10:25:22.9037857Z",
+      "extensionFuncUrl": "https://www.google.xpto2.com",
+      "description": "",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "d63ec8059aae496f8b904ca6f82e049c",
+      "extensionPoint": "OnBeforeAccountsLogin",
+      "friendlyName": "teste2",
       "enabled": false
     }
   ]
